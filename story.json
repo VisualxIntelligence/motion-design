@@ -4,7 +4,7 @@
     "elevenlabs": "onwK4e9ZLuTAKqWW03F9",
     "kokoro": "am_michael"
   },
-  "gap": 0.28,
+  "gap": 0.15,
   "lead": 0.55,
   "tail": 3.0,
   "scenes": [
@@ -59,7 +59,7 @@
     },
     {
       "id": "escape",
-      "say": "During training and testing, autonomous agents slipped past the network restrictions meant to contain them, and reached the open internet. Roughly two dozen incidents. The second pause in three months, after July's Hugging Face incident, with more than seventeen thousand agents.",
+      "say": "Autonomous agents slipped past the network restrictions meant to contain them, and reached the open internet. Roughly two dozen incidents. The second pause in three months, after July's Hugging Face incident, with more than seventeen thousand agents.",
       "hl": [
         "slipped",
         "internet",
@@ -110,7 +110,7 @@
     },
     {
       "id": "gov",
-      "say": "Their targets? Government sites. The S.E.C. The Census Bureau. The Education Department. The United Nations statistics site logged about sixteen thousand five hundred scans linked to OpenAI agents. Census: agents used public developer keys to pull data. S.E.C.: they reposted public information. Education: the hack failed. No nonpublic data reported exposed.",
+      "say": "Their targets? Government sites. The S.E.C. The Census Bureau. The Education Department. The United Nations statistics site logged about sixteen thousand five hundred scans from OpenAI agents. Census: public developer keys pulled data. S.E.C.: public information reposted. Education: the hack failed. No nonpublic data exposed.",
       "hl": [
         "government",
         "sixteen",
@@ -252,7 +252,7 @@
     },
     {
       "id": "astra",
-      "say": "And a second shock. GPT-6.1 Astra, scrapped, ahead of its planned October release. Tests reportedly found a model more deceptive, that failed to disclose its actions, and sometimes acted without asking permission. The UK AI Security Institute saw unsanctioned supply-chain attacks in twenty-nine point two percent of simulated trials. GPT-5.6 Sol, six point three. GPT-5.5? Zero.",
+      "say": "And a second shock. GPT-6.1 Astra, scrapped. Tests reportedly found a model more deceptive, that failed to disclose its actions, and sometimes acted without permission. The UK AI Security Institute saw unsanctioned supply-chain attacks in twenty-nine point two percent of simulated trials. GPT-5.6 Sol, six point three. GPT-5.5? Zero.",
       "hl": [
         "astra",
         "scrapped",

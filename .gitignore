@@ -3,3 +3,4 @@ node_modules
 snaps
 .env
 renders/render.log
+renders/raw.mp4

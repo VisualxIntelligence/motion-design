@@ -1,415 +1,415 @@
 {
  "cues": {
-  "date": 0.984,
-  "pause": 2.543,
-  "train": 3.12,
-  "eval": 3.794,
-  "infer": 4.561,
-  "frozen": 6.704,
-  "broke": 8.599,
-  "agents": 11.037,
-  "slipped": 12.131,
-  "internet": 16.357,
-  "dozen": 17.731,
-  "second": 18.961,
-  "hf": 21.22,
-  "seventeen": 22.952,
-  "gov": 25.835,
-  "sec": 27.321,
-  "census": 28.006,
-  "edu": 29.205,
-  "un": 31.101,
-  "sixteen": 32.976,
-  "censusRes": 36.535,
-  "keys": 38.67,
-  "secRes": 39.924,
-  "reposted": 40.655,
-  "eduRes": 42.313,
-  "failed": 43.557,
-  "nonpublic": 44.333,
-  "leak": 47.091,
-  "twentieth": 48.593,
-  "posted": 49.876,
-  "fiftythree": 50.256,
-  "anon": 50.922,
-  "hosting": 52.731,
-  "cant": 54.313,
-  "appropriate": 57.691,
-  "shock": 60.566,
-  "astra": 61.541,
-  "scrapped": 61.951,
-  "deceptive": 67.108,
-  "disclose": 68.675,
-  "permission": 71.994,
-  "aisi": 73.977,
-  "tn": 76.428,
-  "sol": 80.161,
-  "solv": 80.524,
-  "gpt55": 81.704,
-  "zero": 82.276,
-  "fallout": 83.273,
-  "florida": 84.48,
-  "injunction": 88.084,
-  "washington": 91,
-  "lunch": 95.428,
-  "nvidia": 96.694,
-  "hardware": 97.998,
-  "hundred": 100.292,
-  "matters": 102.107,
-  "one": 102.721,
-  "network": 104.769,
-  "two": 105.706,
-  "gated": 107.521,
-  "three": 109.058,
-  "courts": 111.653,
-  "devel": 112.621,
-  "months": 114.793,
-  "q1": 117.332,
-  "q2": 120.418,
-  "until": 122.777,
-  "paused": 125.055
+  "date": 0.9,
+  "pause": 2.878,
+  "train": 3.894,
+  "eval": 4.683,
+  "infer": 5.705,
+  "frozen": 8.282,
+  "broke": 10.368,
+  "agents": 11.132,
+  "slipped": 12.307,
+  "internet": 16.584,
+  "dozen": 18.437,
+  "second": 20.028,
+  "hf": 22.57,
+  "seventeen": 24.151,
+  "gov": 27.026,
+  "sec": 28.453,
+  "census": 29.393,
+  "edu": 30.67,
+  "un": 32.47,
+  "sixteen": 34.262,
+  "censusRes": 38.112,
+  "keys": 39.552,
+  "secRes": 41.282,
+  "reposted": 43.07,
+  "eduRes": 44.034,
+  "failed": 45.45,
+  "nonpublic": 46.565,
+  "leak": 49.3,
+  "twentieth": 50.848,
+  "posted": 52.362,
+  "fiftythree": 52.756,
+  "anon": 53.588,
+  "hosting": 55.782,
+  "cant": 57.976,
+  "appropriate": 61.366,
+  "shock": 63.896,
+  "astra": 66.326,
+  "scrapped": 67.042,
+  "deceptive": 70.053,
+  "disclose": 71.434,
+  "permission": 74.151,
+  "aisi": 76.902,
+  "tn": 79.42,
+  "sol": 84.925,
+  "solv": 85.564,
+  "gpt55": 86.678,
+  "zero": 88.489,
+  "fallout": 89.535,
+  "florida": 90.941,
+  "injunction": 93.939,
+  "washington": 97.66,
+  "lunch": 102.077,
+  "nvidia": 103.964,
+  "hardware": 105.479,
+  "hundred": 107.325,
+  "matters": 109.103,
+  "one": 109.974,
+  "network": 112.191,
+  "two": 113.561,
+  "gated": 115.895,
+  "three": 117.683,
+  "courts": 120.597,
+  "devel": 121.909,
+  "months": 124.648,
+  "q1": 127.492,
+  "q2": 131.219,
+  "until": 133.913,
+  "paused": 136.568
  },
  "sfx": [
   {
    "id": "date",
    "sfx": "hit",
-   "t": 0.984
+   "t": 0.9
   },
   {
    "id": "pause",
    "sfx": "impact",
-   "t": 2.543
+   "t": 2.878
   },
   {
    "id": "train",
    "sfx": "tick",
-   "t": 3.12
+   "t": 3.894
   },
   {
    "id": "eval",
    "sfx": "tick",
-   "t": 3.794
+   "t": 4.683
   },
   {
    "id": "infer",
    "sfx": "tick",
-   "t": 4.561
+   "t": 5.705
   },
   {
    "id": "frozen",
    "sfx": "freeze",
-   "t": 6.704
+   "t": 8.282
   },
   {
    "id": "broke",
    "sfx": "shatter",
-   "t": 8.599
+   "t": 10.368
   },
   {
    "id": "agents",
    "sfx": "whoosh",
-   "t": 11.037
+   "t": 11.132
   },
   {
    "id": "slipped",
    "sfx": "glitch",
-   "t": 12.131
+   "t": 12.307
   },
   {
    "id": "internet",
    "sfx": "burst",
-   "t": 16.357
+   "t": 16.584
   },
   {
    "id": "dozen",
    "sfx": "hit",
-   "t": 17.731
+   "t": 18.437
   },
   {
    "id": "second",
    "sfx": "hit",
-   "t": 18.961
+   "t": 20.028
   },
   {
    "id": "hf",
    "sfx": "tick",
-   "t": 21.22
+   "t": 22.57
   },
   {
    "id": "seventeen",
    "sfx": "rise",
-   "t": 22.952
+   "t": 24.151
   },
   {
    "id": "gov",
    "sfx": "whoosh",
-   "t": 25.835
+   "t": 27.026
   },
   {
    "id": "sec",
    "sfx": "hit",
-   "t": 27.321
+   "t": 28.453
   },
   {
    "id": "census",
    "sfx": "hit",
-   "t": 28.006
+   "t": 29.393
   },
   {
    "id": "edu",
    "sfx": "hit",
-   "t": 29.205
+   "t": 30.67
   },
   {
    "id": "un",
    "sfx": "whoosh",
-   "t": 31.101
+   "t": 32.47
   },
   {
    "id": "sixteen",
    "sfx": "scan",
-   "t": 32.976
+   "t": 34.262
   },
   {
    "id": "censusRes",
    "sfx": "tick",
-   "t": 36.535
+   "t": 38.112
   },
   {
    "id": "keys",
    "sfx": "unlock",
-   "t": 38.67
+   "t": 39.552
   },
   {
    "id": "secRes",
    "sfx": "tick",
-   "t": 39.924
+   "t": 41.282
   },
   {
    "id": "reposted",
    "sfx": "tick",
-   "t": 40.655
+   "t": 43.07
   },
   {
    "id": "eduRes",
    "sfx": "tick",
-   "t": 42.313
+   "t": 44.034
   },
   {
    "id": "failed",
    "sfx": "denied",
-   "t": 43.557
+   "t": 45.45
   },
   {
    "id": "nonpublic",
    "sfx": "chime",
-   "t": 44.333
+   "t": 46.565
   },
   {
    "id": "leak",
    "sfx": "alarm",
-   "t": 47.091
+   "t": 49.3
   },
   {
    "id": "twentieth",
    "sfx": "tick",
-   "t": 48.593
+   "t": 50.848
   },
   {
    "id": "posted",
    "sfx": "whoosh",
-   "t": 49.876
+   "t": 52.362
   },
   {
    "id": "fiftythree",
    "sfx": "impact",
-   "t": 50.256
+   "t": 52.756
   },
   {
    "id": "anon",
    "sfx": "static",
-   "t": 50.922
+   "t": 53.588
   },
   {
    "id": "hosting",
    "sfx": "tick",
-   "t": 52.731
+   "t": 55.782
   },
   {
    "id": "cant",
    "sfx": "denied",
-   "t": 54.313
+   "t": 57.976
   },
   {
    "id": "appropriate",
    "sfx": "hit",
-   "t": 57.691
+   "t": 61.366
   },
   {
    "id": "shock",
    "sfx": "hit",
-   "t": 60.566
+   "t": 63.896
   },
   {
    "id": "astra",
    "sfx": "chime",
-   "t": 61.541
+   "t": 66.326
   },
   {
    "id": "scrapped",
    "sfx": "shatter",
-   "t": 61.951
+   "t": 67.042
   },
   {
    "id": "deceptive",
    "sfx": "glitch",
-   "t": 67.108
+   "t": 70.053
   },
   {
    "id": "disclose",
    "sfx": "glitch",
-   "t": 68.675
+   "t": 71.434
   },
   {
    "id": "permission",
    "sfx": "glitch",
-   "t": 71.994
+   "t": 74.151
   },
   {
    "id": "aisi",
    "sfx": "whoosh",
-   "t": 73.977
+   "t": 76.902
   },
   {
    "id": "tn",
    "sfx": "rise",
-   "t": 76.428
+   "t": 79.42
   },
   {
    "id": "sol",
    "sfx": "tick",
-   "t": 80.161
+   "t": 84.925
   },
   {
    "id": "solv",
    "sfx": "tick",
-   "t": 80.524
+   "t": 85.564
   },
   {
    "id": "gpt55",
    "sfx": "tick",
-   "t": 81.704
+   "t": 86.678
   },
   {
    "id": "zero",
    "sfx": "drop",
-   "t": 82.276
+   "t": 88.489
   },
   {
    "id": "fallout",
    "sfx": "hit",
-   "t": 83.273
+   "t": 89.535
   },
   {
    "id": "florida",
    "sfx": "whoosh",
-   "t": 84.48
+   "t": 90.941
   },
   {
    "id": "injunction",
    "sfx": "gavel",
-   "t": 88.084
+   "t": 93.939
   },
   {
    "id": "washington",
    "sfx": "whoosh",
-   "t": 91
+   "t": 97.66
   },
   {
    "id": "lunch",
    "sfx": "tick",
-   "t": 95.428
+   "t": 102.077
   },
   {
    "id": "nvidia",
    "sfx": "whoosh",
-   "t": 96.694
+   "t": 103.964
   },
   {
    "id": "hardware",
    "sfx": "lock",
-   "t": 97.998
+   "t": 105.479
   },
   {
    "id": "hundred",
    "sfx": "tick",
-   "t": 100.292
+   "t": 107.325
   },
   {
    "id": "matters",
    "sfx": "hit",
-   "t": 102.107
+   "t": 109.103
   },
   {
    "id": "one",
    "sfx": "tick",
-   "t": 102.721
+   "t": 109.974
   },
   {
    "id": "network",
    "sfx": "glitch",
-   "t": 104.769
+   "t": 112.191
   },
   {
    "id": "two",
    "sfx": "tick",
-   "t": 105.706
+   "t": 113.561
   },
   {
    "id": "gated",
    "sfx": "lock",
-   "t": 107.521
+   "t": 115.895
   },
   {
    "id": "three",
    "sfx": "tick",
-   "t": 109.058
+   "t": 117.683
   },
   {
    "id": "courts",
    "sfx": "gavel",
-   "t": 111.653
+   "t": 120.597
   },
   {
    "id": "devel",
    "sfx": "hit",
-   "t": 112.621
+   "t": 121.909
   },
   {
    "id": "months",
    "sfx": "hit",
-   "t": 114.793
+   "t": 124.648
   },
   {
    "id": "q1",
    "sfx": "tick",
-   "t": 117.332
+   "t": 127.492
   },
   {
    "id": "q2",
    "sfx": "tick",
-   "t": 120.418
+   "t": 131.219
   },
   {
    "id": "until",
    "sfx": "rise",
-   "t": 122.777
+   "t": 133.913
   },
   {
    "id": "paused",
    "sfx": "impact",
-   "t": 125.055
+   "t": 136.568
   }
  ],
- "duration": 128.69
+ "duration": 140.41
 }
