@@ -6,3 +6,4 @@ tools/_*.mjs
 .env
 renders/work-*
 renders/.*
+renders/*-master.mp4

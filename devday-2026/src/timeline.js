@@ -2,7 +2,7 @@
 // GSAP choreography. Every visual beat is keyed to a word cue from build/data.js (ElevenLabs word timestamps).
 // Frames are pure functions of time: tweens set state, impulses/counters/typing are evaluated from t in drive().
 import DATA from '../build/data.js';
-import { S, initWorld, render, project, DOT_X, DOT_Y } from './world.js';
+import { S, initWorld, render, updateCamera, project, DOT_X, DOT_Y } from './world.js';
 import { SH } from './field.js';
 import { HEX } from './util.js';
 import { scenes } from './scenes.js';
@@ -39,7 +39,7 @@ export function type(e, segs, t, cps = 38, caret = true) {
     if (caret && T >= t && T < t + total / cps + 0.5) h += '<span style="opacity:.8">▍</span>';
     if (e.innerHTML !== h) e.innerHTML = h; });
 }
-export function pin(e, fn, dx = 0, dy = 0) { dyn((T) => { if (e.style.visibility === 'hidden') return; const [x, y] = project(...fn(T)); e.style.left = (x + dx).toFixed(1) + 'px'; e.style.top = (y + dy).toFixed(1) + 'px'; }); }
+export function pin(e, fn, dx = 0, dy = 0) { dyn((T) => { const [x, y] = project(...fn(T)); e.style.left = (x + dx).toFixed(1) + 'px'; e.style.top = (y + dy).toFixed(1) + 'px'; }); }
 
 // ---------- world helpers
 export const cam = (t, d, pose, ease = 'power2.inOut') => K.tl.to(S.cam, { ...pose, duration: d, ease }, t);
@@ -78,8 +78,9 @@ async function build() {
   const drive = () => { pending = false; const t = tl.time(); lastT = t;
     S.shake = decay('shake', t); S.flash = decay('flash', t); S.glitch = decay('glitch', t); S.ab = decay('ab', t); S.field.pulse = decay('pulse', t);
     const w = bump(t); S.whip = Math.abs(w); S.whipDir = w < 0 ? -1 : 1;
+    updateCamera(t);
     for (const f of K.dyn) f(t);
-    render(t); };
+    if (!window.__noRender) render(t); };
   const schedule = () => { if (!pending) { pending = true; queueMicrotask(drive); } };
   const tt = tl.totalTime.bind(tl);
   tl.totalTime = function (...a) { const r = tt(...a); if (a.length) schedule(); return r; };

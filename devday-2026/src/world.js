@@ -95,13 +95,19 @@ export async function initWorld(canvas) {
 
 export function project(x, y, z) { const v = new THREE.Vector3(x, y, z).project(camera); return [(v.x * 0.5 + 0.5) * W, (-v.y * 0.5 + 0.5) * H, v.z]; }
 
-export function render(t) {
-  if (!O) return; U.uT.value = t;
+// Pose the camera for time t. Called before DOM updaters (so labels pinned to 3D points project through this frame's camera) and by render().
+export function updateCamera(t) {
+  if (!camera) return;
   const c = S.cam, sh = S.shake;
   const dx = Math.sin(t * 0.31) * 0.12 + Math.sin(t * 57) * sh * 0.22, dy = Math.cos(t * 0.27) * 0.08 + Math.cos(t * 49) * sh * 0.18;
   const oa = c.orbit, rx = c.x - c.lx, rz = c.z - c.lz; const ox = c.lx + rx * Math.cos(oa) + rz * Math.sin(oa), oz = c.lz + rz * Math.cos(oa) - rx * Math.sin(oa);
   camera.position.set(ox + dx, c.y + dy, oz); camera.fov = c.fov; camera.updateProjectionMatrix(); camera.lookAt(c.lx, c.ly, c.lz); camera.rotateZ(c.roll + Math.sin(t * 43) * sh * 0.008);
   camera.updateMatrixWorld();
+}
+
+export function render(t) {
+  if (!O) return; U.uT.value = t;
+  const c = S.cam; updateCamera(t);
   const scale = H / (2 * Math.tan((c.fov * Math.PI) / 360));
   // backdrop + floor
   const b = S.bg; bgMat.uniforms.uMood.value = b.mood; bgMat.uniforms.uSun.value = b.sun; bgMat.uniforms.uSpace.value = b.space; bgMat.uniforms.uWarm.value = b.warm; bgMat.uniforms.uCool.value = b.cool;

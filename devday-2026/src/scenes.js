@@ -4,7 +4,7 @@ import { K, q, st, en, eo, S, SH, DOT_X, DOT_Y, HEX, DUR, el, inn, out, slam, po
 const ALL = [0, 1, 2, 3, 4];
 const dotsTo = (idx, t, d, props, ease = 'power2.inOut', stagger = 0) => idx.forEach((i, k) => to(S.dots[i], t + k * stagger, d, typeof props === 'function' ? props(i, k) : props, ease));
 const hop = (i, t, amp = 0.6, d = 0.55) => { K.tl.to(S.dots[i], { hop: amp, duration: 0.08, ease: 'none' }, t); K.tl.to(S.dots[i], { hop: 0, duration: d, ease: 'power2.in' }, t + 0.08); };
-const squash = (i, t, a = 0.25) => { K.tl.to(S.dots[i], { sq: a, duration: 0.07, ease: 'power2.out' }, t); K.tl.to(S.dots[i], { sq: 0, duration: 0.5, ease: 'elastic.out(1.2,0.35)' }, t + 0.07); };
+const squash = (i, t, a = 0.25, d = 0.5) => { K.tl.to(S.dots[i], { sq: a, duration: 0.07, ease: 'power2.out' }, t); K.tl.to(S.dots[i], { sq: 0, duration: d, ease: 'elastic.out(1.2,0.35)' }, t + 0.07); };
 const fieldA = (t, a, d = 0.4) => to(S.field, t, d, { a }, 'power1.inOut');
 const on = (o, t, d = 0.4, ease = 'power2.out') => to(o, t, d, { a: 1 }, ease);
 const off = (o, t, d = 0.35, ease = 'power2.in') => to(o, t, d, { a: 0 }, ease);
@@ -21,7 +21,7 @@ function hook() {
   const tl = K.tl;
   set(S.field, 0, { A: SH.SCATTER, B: SH.SCATTER, m: 0, rx: 0.42, spin: 0, size: 0.085 });
   camSet(0, { x: 0, y: 4.5, z: 21, lx: 0, ly: 0, lz: 0, fov: 40 });
-  fieldA(0.05, 1, 1.2); to(S.field, 0, q('devday') - 0.6, { spin: -1.1 }, 'none');
+  fieldA(0.05, 1, 1.2); to(S.field, 0, q('devday') - 0.65, { spin: -1.1 }, 'none');
   cam(0, q('devday') - 0.3, { y: 2.2, z: 16.5 }, 'power1.inOut');
   // date + place
   const date = el(`<div class="d9" style="font-size:210px;color:#fff">SEP 29</div><div class="row" style="margin-top:26px"><span class="tag" style="font-size:26px;color:var(--sun)">2026</span><span id="sfc" class="chip" style="color:var(--sky);visibility:hidden">SAN FRANCISCO</span></div>`, 'left:110px;top:300px;transform-origin:0 50%');
@@ -38,13 +38,13 @@ function hook() {
   // 20+
   morph(q('twenty') - 0.45, SH.DEVDAY, SH.TWENTY, 0.7); shake(q('twenty'), 0.6); pulse(q('twenty'), 1);
   const lau = el(`<div class="d" style="font-size:54px;text-align:center">LAUNCHES</div><div class="tag" style="margin-top:10px;text-align:center">IN ONE KEYNOTE</div>`, 'left:960px;top:770px', '', 'c'); inn(lau, q('launches') - 0.05, 0.35, { y: 30 });
-  out(lau, q('billion') - 0.55, 0.2);
+  out(lau, q('billion') - 0.05, 0.2);
   // globe + 1.2B
-  morph(q('billion') - 0.55, SH.TWENTY, SH.GLOBE, 1.1); to(S.field, q('billion') - 0.55, 1.2, { rx: 0.3, spin: 1.0 }, 'power2.inOut');
-  to(S.field, q('billion') + 0.7, q('dots') - 0.9 - (q('billion') + 0.7), { spin: 2.2 }, 'none');
-  cam(q('billion') - 0.5, 1.6, { x: 3.2, y: 0.8, z: 16, lx: 3.2, ly: 0 }, 'power2.inOut');
+  morph(q('billion'), SH.TWENTY, SH.GLOBE, 1.1); to(S.field, q('billion'), 1.2, { rx: 0.3, spin: 1.0 }, 'power2.inOut');
+  to(S.field, q('billion') + 1.2, q('dots') - 0.9 - (q('billion') + 1.2), { spin: 2.2 }, 'none');
+  cam(q('billion'), 1.5, { x: 3.2, y: 0.8, z: 16, lx: 3.2, ly: 0 }, 'power2.inOut');
   const bil = el(`<div class="num" data-v style="font-size:190px;color:#fff">0</div><div class="tag" style="font-size:24px;margin-top:14px;color:var(--mint)">WEEKLY CHATGPT USERS</div>`, 'left:1180px;top:360px');
-  inn(bil, q('billion') - 0.35, 0.3, { x: 50, y: 0 }); count(bil.querySelector('[data-v]'), 0, 1.2, q('billion') - 0.3, 0.9, (v) => v.toFixed(1) + 'B');
+  inn(bil, q('billion') + 0.25, 0.3, { x: 50, y: 0 }); count(bil.querySelector('[data-v]'), 0, 1.2, q('billion') + 0.3, 0.9, (v) => v.toFixed(1) + 'B');
   shake(q('weekly'), 0.7); flash(q('weekly'), 0.18);
   out(bil, q('everything') - 0.1, 0.25, { x: 60 });
   // "everything, fast": two product marquees whip across
@@ -123,7 +123,7 @@ function reach() {
   const rh = el('REACH YOUR DOT IN', 'left:1330px;top:236px', 'tag'); inn(rh, q('chatgpt') - 0.25, 0.3, { x: 30, y: 0 });
   const CH = [['chatgpt', 'CHATGPT', 'var(--mint)'], ['voice', 'VOICE CALLS', 'var(--sun)'], ['slack', 'SLACK', 'var(--violet)'], ['teams', 'MICROSOFT TEAMS', 'var(--sky)'], ['texting', 'SMS · COMING', 'var(--dim)']];
   const chips = CH.map(([id, n, c], i) => { const e = el(`<i></i>${n}`, `left:1330px;top:${286 + i * 70}px;color:${c}`, 'chip'); pop(e, q(id) - 0.05, 0.4); return e; });
-  CH.forEach(([id], i) => i < 4 && squash(H0, q(id), 0.12));
+  CH.forEach(([id], i, a) => { if (i < 4) squash(H0, q(id), 0.12, Math.max(0.1, Math.min(0.5, q(a[i + 1][0]) - q(id) - 0.12))); });
   out([apps, rh, ...chips], q('hood') - 0.3, 0.3);
   // under the hood: GPT-6 Astra
   to(S.apps, q('hood') - 0.35, 0.5, { e: 0 }, 'power2.in'); off(S.apps, q('hood') + 0.1, 0.1);
@@ -205,11 +205,11 @@ function sol() {
   const tl = K.tl; const t0 = q('next') - 0.08;
   whip(t0, -1, 1.1);
   ALL.forEach((i) => set(S.dots[i], t0, { s: 0, rx: 0, eyes: 1 })); set(S.floor, t0, { a: 0, pool: 0.6 }); set(S.bg, t0, { mood: 0, space: 1, sun: 0.3 }); set(S.grade, t0, { red: 0 }); set(S, t0, { stars: 0.9 });
-  camSet(t0, { x: 0, y: 0, z: 15, lx: 0, ly: 0, lz: 0, fov: 40, orbit: 0 }); cam(t0, en('sol') - t0 + 13, { z: 12.5, orbit: 0.12 }, 'power1.inOut');
+  camSet(t0, { x: 0, y: 0, z: 15, lx: 0, ly: 0, lz: 0, fov: 40, orbit: 0 }); cam(t0, q('speed') - 0.5 - t0, { z: 12.5, orbit: 0.12 }, 'power1.inOut');
   set(S.sun, 0, { x: 2.3, y: 0.3, z: 0, s: 0, flare: 0 });
   to(S.sun, t0 + 0.1, q('sol') - t0 - 0.3, { a: 0.6, s: 0.12, flare: 0.5 }, 'power2.in');
   const nx = el('NEXT UP', 'left:960px;top:700px;color:var(--sun);font-size:26px', 'tag', 'c'); inn(nx, t0 + 0.15, 0.3, { y: 12 }); out(nx, q('sol') - 0.2, 0.15);
-  to(S.sun, q('sol') - 0.15, 0.9, { a: 1, s: 1 }, 'expo.out'); tl.fromTo(S.sun, { flare: 1.2 }, { flare: 0, duration: 1.4, ease: 'power2.out', immediateRender: false }, q('sol') - 0.1);
+  to(S.sun, q('sol') - 0.15, Math.min(0.9, q('near') - 0.22 - (q('sol') - 0.15)), { a: 1, s: 1 }, 'expo.out'); tl.fromTo(S.sun, { flare: 1.2 }, { flare: 0, duration: 1.4, ease: 'power2.out', immediateRender: false }, q('sol') - 0.1);
   to(S.bg, q('sol') - 0.1, 0.8, { sun: 1 }); flash(q('sol'), 0.4); shake(q('sol'), 0.8);
   const ti = el(`<div class="tag" style="font-size:30px;color:#fff">GPT-6.1</div><div class="d9" style="font-size:250px;background:linear-gradient(180deg,#ffe08a,#ff8a2a);-webkit-background-clip:text;background-clip:text;color:transparent">SOL</div>`, 'left:120px;top:250px;transform-origin:0 0');
   slam(ti, q('sol') - 0.05, 1.4);
@@ -349,7 +349,7 @@ function agents() {
   // Decisions API: stream converges on Luna, splits approve / reject
   const t1 = q('decisions') - 0.2; whip(t1, -1, 1.1); tl.set(gone, { autoAlpha: 0 }, t1);
   ['mon', 'graph', 'cloud', 'aws'].forEach((k) => set(S[k], t1, { a: 0 })); set(S.floor, t1, { a: 0 }); set(S.bg, t1, { cool: 1, space: 0.6 });
-  camSet(t1, { x: 0, y: 0.3, z: 14.5, lx: 0.4, ly: 0.1, lz: 0, orbit: 0, fov: 40 }); cam(t1, en('agents') - t1, { z: 13.2 }, 'power1.out');
+  camSet(t1, { x: 0, y: 0.3, z: 14.5, lx: 0.4, ly: 0.1, lz: 0, orbit: 0, fov: 40 }); cam(t1, q('codexT') - 0.25 - t1, { z: 13.2 }, 'power1.out');
   set(S.field, t1, { A: SH.GRID, B: SH.GRID, m: 1, flow: 1, x: 0, y: 0, z: 0, s: 1, rot: 0, rx: 0, spin: 0, collapse: 0, laneA: 0, laneR: 0, red: 0, size: 0.075 }); to(S.field, t1, 0.4, { a: 0.95 });
   const dt = el(`<div class="tag" style="color:var(--sky)">NEW</div><div class="d9" style="font-size:92px;margin-top:6px">DECISIONS API</div><div class="m5" style="font-size:24px;margin-top:12px;color:var(--dim)">narrow, finite-answer choices · instantly</div>`, 'left:110px;top:150px');
   slam(dt, q('decisions') - 0.05, 1.3);
@@ -383,13 +383,13 @@ function codex() {
   set(S.phone, 0, { x: 9, y: 0.3, z: 3.2, ry: -0.5 }); on(S.phone, q('phone') - 0.2, 0.2); to(S.phone, q('phone') - 0.2, 0.6, { x: 4.3, ry: -0.3 }, 'back.out(1.4)');
   const wv = el([...Array(24)].map(() => '<span style="display:inline-block;width:8px;margin:0 3px;border-radius:4px;background:var(--violet);height:10px;vertical-align:middle"></span>').join(''), 'left:1500px;top:862px;height:90px;display:flex;align-items:center', '', 'c');
   inn(wv, q('voiceS') - 0.1, 0.3, { y: 10 }); const bars = [...wv.children];
-  dyn((T) => { if (T < q('voiceS') - 0.2 || T > q('harness') + 1) return; bars.forEach((b, i) => { b.style.height = (10 + 60 * Math.abs(Math.sin(T * 9 + i * 0.7) * Math.sin(T * 3.3 + i * 0.3))).toFixed(0) + 'px'; }); });
+  dyn((T) => { const live = T >= q('voiceS') - 0.2 && T <= q('harness') + 1; bars.forEach((b, i) => { b.style.height = (live ? 10 + 60 * Math.abs(Math.sin(T * 9 + i * 0.7) * Math.sin(T * 3.3 + i * 0.3)) : 10).toFixed(0) + 'px'; }); });
   const os = el('OPEN SOURCE', 'left:760px;top:700px;font-size:60px;color:var(--sun)', 'stamp'); slam(os, q('opensrc') - 0.05, 2, -6); shake(q('opensrc'), 0.5);
   const gone = [ct, tw, wv, os];
   // Sign in with ChatGPT
   const t1 = q('signin') - 0.25; whip(t1, -1, 1); tl.set(gone, { autoAlpha: 0 }, t1); set(S.phone, t1, { a: 0 });
   const btn = el(`<span style="width:58px;height:58px;border-radius:50%;border:7px solid #05060c;display:inline-block;margin-right:26px;vertical-align:middle"></span><span style="vertical-align:middle">Sign in with ChatGPT</span>`, 'left:960px;top:540px;padding:30px 56px;border-radius:999px;background:#f4f6ff;color:#05060c;font-weight:700;font-size:58px;white-space:nowrap;box-shadow:0 0 80px rgba(255,255,255,.25)', '', 'cc');
-  pop(btn, t1 + 0.05, 0.45); tl.to(btn, { scale: 0.93, duration: 0.07 }, q('signin') + 0.1); tl.to(btn, { scale: 1, duration: 0.35, ease: 'back.out(3)' }, q('signin') + 0.17);
+  pop(btn, t1 + 0.05, 0.3); tl.to(btn, { scale: 0.93, duration: 0.07 }, q('signin') + 0.12); tl.to(btn, { scale: 1, duration: 0.35, ease: 'back.out(3)' }, q('signin') + 0.19);
   const cur = el('<svg width="60" height="80" viewBox="0 0 24 32"><path d="M2 2 L2 26 L8 20 L12 30 L16 28 L12 18 L20 18 Z" fill="#fff" stroke="#05060c" stroke-width="1.6"/></svg>', 'left:0;top:0'); 
   tl.fromTo(cur, { autoAlpha: 1, x: 1500, y: 900 }, { x: 1150, y: 560, duration: 0.45, ease: 'power3.out', immediateRender: false }, t1 + 0.1); tl.set(cur, { autoAlpha: 0 }, 0); tl.set(cur, { autoAlpha: 1 }, t1 + 0.1); out(cur, q('spend'), 0.2);
   const sp = el('SPEND YOUR PLUS / PRO ALLOWANCE INSIDE PARTNER APPS', 'left:960px;top:660px;color:#fff', 'tag', 'c'); inn(sp, q('spend') - 0.05, 0.3, { y: 16 });
@@ -422,7 +422,7 @@ function codex() {
 function collab() {
   const tl = K.tl; const t0 = q('teamwork') - 0.2; const SP = [[-4.3, -1.6], [4.4, -1.0], [-1.9, -4.0], [2.4, -3.9], [-4.7, 1.3]];
   whip(t0, -1, 1); set(S.bg, t0, { cool: 0, space: 0, warm: 0.4 }); set(S.floor, t0, { a: 1, pool: 0.7 });
-  camSet(t0, { x: 0, y: 7.2, z: 15.5, lx: 0, ly: -1.3, lz: 0, fov: 40, orbit: -0.3 }); cam(t0, q('pages') - t0 - 0.2, { orbit: 0.25, y: 6.4, z: 14 }, 'power1.inOut');
+  camSet(t0, { x: 0, y: 7.2, z: 15.5, lx: 0, ly: -1.3, lz: 0, fov: 40, orbit: -0.3 }); cam(t0, q('pages') - t0 - 0.3, { orbit: 0.25, y: 6.4, z: 14 }, 'power1.inOut');
   set(S.space, 0, { stack: 0, ppl: 0, orb: 0, links: 0, rot: 0 }); on(S.space, t0 + 0.05, 0.4);
   const tw = el('THEN, TEAMWORK', 'left:110px;top:150px;color:var(--violet)', 'tag'); inn(tw, q('teamwork') - 0.1, 0.3, { x: -20, y: 0 });
   const st_ = el(`<span class="d9" style="font-size:96px">CHATGPT <span class="violet">SPACE</span></span>`, 'left:110px;top:190px;white-space:nowrap'); slam(st_, q('space') - 0.05, 1.3);
@@ -463,7 +463,7 @@ function collab() {
 function enterprise() {
   const tl = K.tl; const t0 = q('enter') - 0.2;
   whip(t0, 1, 1); set(S.bg, t0, { warm: 0, cool: 0.7, space: 0.2 }); set(S.floor, t0, { a: 0.7, pool: 0.4 });
-  camSet(t0, { x: 2.2, y: 1.6, z: 12.5, lx: 2.2, ly: 0.2, lz: 0, fov: 40, orbit: 0 }); cam(t0, q('market') - t0, { orbit: 0.22, z: 11.5 }, 'power1.inOut');
+  camSet(t0, { x: 2.2, y: 1.6, z: 12.5, lx: 2.2, ly: 0.2, lz: 0, fov: 40, orbit: 0 }); cam(t0, q('market') - 0.3 - t0, { orbit: 0.22, z: 11.5 }, 'power1.inOut');
   set(S.vault, 0, { x: 4.4, y: 0.35, z: 0, lock: 0, scan: 0, rot: 0 }); on(S.vault, t0 + 0.05, 0.4);
   set(S.field, t0, { A: SH.CUBE, B: SH.CUBE, m: 1, flow: 0, x: 4.4, y: 0.1, z: 0, s: 0.95, rot: 0, rx: 0, spin: 0, collapse: 0, red: 0, size: 0.06 }); to(S.field, t0 + 0.1, 0.5, { a: 0.9 });
   to(S.field, t0, q('zero') - t0, { rot: 1.4 }, 'none');
@@ -481,7 +481,7 @@ function enterprise() {
   // Marketplace
   const t1 = q('market') - 0.25; whip(t1, -1, 1); tl.set(gone, { autoAlpha: 0 }, t1); set(S.vault, t1, { a: 0 });
   set(S.field, t1, { A: SH.GRID, B: SH.GRID, m: 1, x: 0, y: 0, z: 0, s: 1, rot: 0, collapse: 0, size: 0.07 }); to(S.field, t1, 0.5, { a: 0.35 });
-  camSet(t1, { x: 0, y: 0, z: 12, lx: 0, ly: 0, lz: 0, orbit: 0 }); cam(t1, en('enterprise') - t1, { z: 10.5 }, 'power1.inOut');
+  camSet(t1, { x: 0, y: 0, z: 12, lx: 0, ly: 0, lz: 0, orbit: 0 }); cam(t1, q('but') - 0.3 - t1, { z: 10.5 }, 'power1.inOut');
   const mt = el(`<div class="tag" style="text-align:center;color:var(--mint)">OPENAI</div><div class="d9" style="font-size:96px;text-align:center">MARKETPLACE</div>`, 'left:960px;top:120px', '', 'c'); slam(mt, q('market') - 0.05, 1.3);
   const cm = el('SPEND EXISTING OPENAI COMMITMENTS ON PARTNER PRODUCTS', 'left:960px;top:290px;color:#fff', 'tag', 'c'); inn(cm, q('commit') - 0.1, 0.3, { y: 12 });
   const N = { 0: 'Adobe', 2: 'Figma', 5: 'Sierra', 9: 'HubSpot', 12: 'Salesforce', 14: 'ServiceNow', 19: 'Harvey', 21: 'Legora', 26: 'Palo Alto Networks', 29: 'CrowdStrike' };
@@ -490,8 +490,8 @@ function enterprise() {
     tl.fromTo(e, { autoAlpha: 0, scale: 0.5, y: 30 }, { autoAlpha: 1, scale: 1, y: 0, duration: 0.35, ease: 'back.out(2)' }, q('market') + 0.1 + (c + r) * 0.05); return e; });
   const n32 = el(`<span class="num" style="font-size:70px;color:var(--mint)">32</span><span class="m" style="font-size:22px;margin-left:12px">PARTNERS</span>`, 'left:960px;top:830px;white-space:nowrap', '', 'c'); slam(n32, q('thirtytwoP') - 0.05, 1.4);
   [['adobe', 0], ['figma', 2], ['salesforce', 12], ['crowdstrike', 29]].forEach(([id, i]) => { tl.to(tiles[i], { scale: 1.16, borderColor: HEX[i % 5], boxShadow: `0 0 36px ${HEX[i % 5]}`, duration: 0.25, ease: 'back.out(3)' }, q(id) - 0.05); });
-  const ap = el('ENTERPRISE APPLICATIONS OPEN NOW', 'left:960px;top:930px', 'foot', 'c'); inn(ap, q('crowdstrike') + 0.2, 0.3, { y: 10 });
-  out([mt, cm, ...tiles, n32, ap], en('enterprise') + 0.02, 0.3); to(S.field, en('enterprise'), 0.4, { a: 0 });
+  const ap = el('ENTERPRISE APPLICATIONS OPEN NOW', 'left:960px;top:930px', 'foot', 'c'); inn(ap, q('thirtytwoP') + 0.5, 0.3, { y: 10 });
+  const tx = Math.min(en('enterprise') + 0.02, q('but') - 0.62); out([mt, cm, ...tiles, n32, ap], tx, 0.3); to(S.field, tx, 0.3, { a: 0 });
 }
 
 // =====================================================================================
