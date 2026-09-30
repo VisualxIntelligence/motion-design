@@ -1,0 +1,979 @@
+{
+ "cues": {
+  "date": 1.173,
+  "sf": 2.075,
+  "devday": 3.766,
+  "twenty": 5.013,
+  "launches": 5.372,
+  "billion": 6.006,
+  "weekly": 7.001,
+  "everything": 8.035,
+  "fast": 8.387,
+  "first": 9.11,
+  "dots": 9.659,
+  "alwayson": 10.112,
+  "agents": 10.986,
+  "tf": 12.295,
+  "computer": 13.55,
+  "browser": 14.419,
+  "priorities": 15.595,
+  "time": 16.257,
+  "altman": 17.086,
+  "helper": 18.123,
+  "back": 19.156,
+  "plug": 20.196,
+  "four": 20.529,
+  "chatgpt": 22.324,
+  "voice": 23.496,
+  "slack": 24.17,
+  "teams": 24.692,
+  "texting": 25.284,
+  "hood": 26.431,
+  "astra": 27.951,
+  "rules": 29.112,
+  "alone": 30.138,
+  "approval": 31.032,
+  "offlim": 31.992,
+  "passwords": 32.746,
+  "testers": 34.206,
+  "negotiate": 35.471,
+  "contracts": 36.256,
+  "catch": 37.45,
+  "pro": 39.029,
+  "premium": 39.691,
+  "free": 40.376,
+  "plus": 40.724,
+  "leftout": 41.587,
+  "cute": 43.22,
+  "glasses": 43.724,
+  "hats": 44.351,
+  "bow": 44.932,
+  "register": 45.945,
+  "existential": 48.345,
+  "next": 49.936,
+  "sol": 51.913,
+  "near": 52.393,
+  "fifth": 53.856,
+  "two": 55.121,
+  "tenout": 57.106,
+  "cached": 58.294,
+  "cents": 59.394,
+  "ninetyfive": 60.264,
+  "ties": 62.163,
+  "beats": 64.137,
+  "third": 67.008,
+  "errors": 68.812,
+  "thirtytwo": 69.311,
+  "live": 70.824,
+  "api": 71.675,
+  "work": 73.138,
+  "codex": 73.753,
+  "speed": 74.568,
+  "ultrafast": 75.393,
+  "eight": 76.764,
+  "threeh": 78.563,
+  "tokens": 79.063,
+  "cerebras": 80.84,
+  "cheap": 82.168,
+  "sixty": 84.473,
+  "threeout": 85.808,
+  "bundled": 88.486,
+  "pro500": 90.696,
+  "fiveh": 91.717,
+  "twentyfive": 93.192,
+  "devs": 95.429,
+  "agentsapi": 96.241,
+  "computeruse": 97.452,
+  "clicking": 98.442,
+  "typing": 98.83,
+  "navigating": 99.495,
+  "multi": 100.955,
+  "hosting": 103.129,
+  "aws": 106.918,
+  "bedrock": 107.982,
+  "decisions": 108.815,
+  "approve": 111.345,
+  "reject": 111.903,
+  "luna": 113.675,
+  "tencents": 114.48,
+  "codexT": 116.738,
+  "runtimes": 118.289,
+  "phone": 119.339,
+  "voiceS": 120.019,
+  "review": 121.169,
+  "security": 123.228,
+  "harness": 124.54,
+  "opensrc": 125.368,
+  "signin": 126.482,
+  "spend": 128.309,
+  "sixteen": 129.613,
+  "notion": 131.269,
+  "vercel": 131.792,
+  "devin": 132.349,
+  "token": 134.064,
+  "plugins": 135.067,
+  "sidebars": 135.751,
+  "panels": 136.389,
+  "mcp": 137.028,
+  "teamwork": 138.789,
+  "space": 140.243,
+  "teammates": 141.748,
+  "chatgptC": 142.34,
+  "dotsC": 143.118,
+  "together": 143.614,
+  "pages": 144.237,
+  "humans": 145.997,
+  "slidesC": 147.755,
+  "weeksC": 149.098,
+  "mention": 149.883,
+  "slackC": 151.849,
+  "enter": 153.096,
+  "private": 153.924,
+  "zero": 155.231,
+  "safety": 157.03,
+  "staff": 158.702,
+  "inference": 160.192,
+  "confidential": 160.699,
+  "fall": 162.189,
+  "market": 163.723,
+  "commit": 165.556,
+  "thirtytwoP": 166.272,
+  "adobe": 167.704,
+  "figma": 168.25,
+  "salesforce": 168.737,
+  "crowdstrike": 169.469,
+  "but": 170.21,
+  "backdropW": 170.879,
+  "oneday": 172.001,
+  "scrapped": 173.747,
+  "concerns": 176.749,
+  "weeks": 177.585,
+  "paused": 178.434,
+  "incidents": 181.184,
+  "gov": 182.76,
+  "hugging": 183.828,
+  "keynote": 185.299,
+  "none": 186.138,
+  "question": 187.683,
+  "ship": 189.234,
+  "autonomous": 190.128,
+  "scrutiny": 191.693,
+  "peak": 192.62,
+  "alwaysO": 193.77,
+  "on": 194.208,
+  "spotlight": 195.335
+ },
+ "sfx": [
+  {
+   "id": "date",
+   "sfx": "hit",
+   "t": 1.173
+  },
+  {
+   "id": "sf",
+   "sfx": "tick",
+   "t": 2.075
+  },
+  {
+   "id": "devday",
+   "sfx": "impact",
+   "t": 3.766
+  },
+  {
+   "id": "twenty",
+   "sfx": "hit",
+   "t": 5.013
+  },
+  {
+   "id": "launches",
+   "sfx": "blip",
+   "t": 5.372
+  },
+  {
+   "id": "billion",
+   "sfx": "riser",
+   "t": 6.006
+  },
+  {
+   "id": "weekly",
+   "sfx": "impact",
+   "t": 7.001
+  },
+  {
+   "id": "everything",
+   "sfx": "swish",
+   "t": 8.035
+  },
+  {
+   "id": "fast",
+   "sfx": "whoosh",
+   "t": 8.387
+  },
+  {
+   "id": "first",
+   "sfx": "swish",
+   "t": 9.11
+  },
+  {
+   "id": "dots",
+   "sfx": "pop",
+   "t": 9.659
+  },
+  {
+   "id": "alwayson",
+   "sfx": "blip",
+   "t": 10.112
+  },
+  {
+   "id": "agents",
+   "sfx": "pop",
+   "t": 10.986
+  },
+  {
+   "id": "tf",
+   "sfx": "tick",
+   "t": 12.295
+  },
+  {
+   "id": "computer",
+   "sfx": "whoosh",
+   "t": 13.55
+  },
+  {
+   "id": "browser",
+   "sfx": "click",
+   "t": 14.419
+  },
+  {
+   "id": "priorities",
+   "sfx": "tick",
+   "t": 15.595
+  },
+  {
+   "id": "time",
+   "sfx": "tick",
+   "t": 16.257
+  },
+  {
+   "id": "altman",
+   "sfx": "swish",
+   "t": 17.086
+  },
+  {
+   "id": "helper",
+   "sfx": "chime",
+   "t": 18.123
+  },
+  {
+   "id": "back",
+   "sfx": "sparkle",
+   "t": 19.156
+  },
+  {
+   "id": "plug",
+   "sfx": "click",
+   "t": 20.196
+  },
+  {
+   "id": "four",
+   "sfx": "impact",
+   "t": 20.529
+  },
+  {
+   "id": "chatgpt",
+   "sfx": "blip",
+   "t": 22.324
+  },
+  {
+   "id": "voice",
+   "sfx": "blip",
+   "t": 23.496
+  },
+  {
+   "id": "slack",
+   "sfx": "blip",
+   "t": 24.17
+  },
+  {
+   "id": "teams",
+   "sfx": "blip",
+   "t": 24.692
+  },
+  {
+   "id": "texting",
+   "sfx": "blip",
+   "t": 25.284
+  },
+  {
+   "id": "hood",
+   "sfx": "whoosh",
+   "t": 26.431
+  },
+  {
+   "id": "astra",
+   "sfx": "sparkle",
+   "t": 27.951
+  },
+  {
+   "id": "rules",
+   "sfx": "hit",
+   "t": 29.112
+  },
+  {
+   "id": "alone",
+   "sfx": "tick",
+   "t": 30.138
+  },
+  {
+   "id": "approval",
+   "sfx": "tick",
+   "t": 31.032
+  },
+  {
+   "id": "offlim",
+   "sfx": "denied",
+   "t": 31.992
+  },
+  {
+   "id": "passwords",
+   "sfx": "lock",
+   "t": 32.746
+  },
+  {
+   "id": "testers",
+   "sfx": "swish",
+   "t": 34.206
+  },
+  {
+   "id": "negotiate",
+   "sfx": "type",
+   "t": 35.471
+  },
+  {
+   "id": "contracts",
+   "sfx": "stamp",
+   "t": 36.256
+  },
+  {
+   "id": "catch",
+   "sfx": "hit",
+   "t": 37.45
+  },
+  {
+   "id": "pro",
+   "sfx": "chime",
+   "t": 39.029
+  },
+  {
+   "id": "premium",
+   "sfx": "chime",
+   "t": 39.691
+  },
+  {
+   "id": "free",
+   "sfx": "denied",
+   "t": 40.376
+  },
+  {
+   "id": "plus",
+   "sfx": "denied",
+   "t": 40.724
+  },
+  {
+   "id": "leftout",
+   "sfx": "tick",
+   "t": 41.587
+  },
+  {
+   "id": "cute",
+   "sfx": "boing",
+   "t": 43.22
+  },
+  {
+   "id": "glasses",
+   "sfx": "pop",
+   "t": 43.724
+  },
+  {
+   "id": "hats",
+   "sfx": "pop",
+   "t": 44.351
+  },
+  {
+   "id": "bow",
+   "sfx": "pop",
+   "t": 44.932
+  },
+  {
+   "id": "register",
+   "sfx": "swish",
+   "t": 45.945
+  },
+  {
+   "id": "existential",
+   "sfx": "drone",
+   "t": 48.345
+  },
+  {
+   "id": "next",
+   "sfx": "whoosh",
+   "t": 49.936
+  },
+  {
+   "id": "sol",
+   "sfx": "impact",
+   "t": 51.913
+  },
+  {
+   "id": "near",
+   "sfx": "swish",
+   "t": 52.393
+  },
+  {
+   "id": "fifth",
+   "sfx": "coin",
+   "t": 53.856
+  },
+  {
+   "id": "two",
+   "sfx": "hit",
+   "t": 55.121
+  },
+  {
+   "id": "tenout",
+   "sfx": "hit",
+   "t": 57.106
+  },
+  {
+   "id": "cached",
+   "sfx": "tick",
+   "t": 58.294
+  },
+  {
+   "id": "cents",
+   "sfx": "coin",
+   "t": 59.394
+  },
+  {
+   "id": "ninetyfive",
+   "sfx": "stamp",
+   "t": 60.264
+  },
+  {
+   "id": "ties",
+   "sfx": "hit",
+   "t": 62.163
+  },
+  {
+   "id": "beats",
+   "sfx": "hit",
+   "t": 64.137
+  },
+  {
+   "id": "third",
+   "sfx": "tick",
+   "t": 67.008
+  },
+  {
+   "id": "errors",
+   "sfx": "swish",
+   "t": 68.812
+  },
+  {
+   "id": "thirtytwo",
+   "sfx": "impact",
+   "t": 69.311
+  },
+  {
+   "id": "live",
+   "sfx": "chime",
+   "t": 70.824
+  },
+  {
+   "id": "api",
+   "sfx": "blip",
+   "t": 71.675
+  },
+  {
+   "id": "work",
+   "sfx": "blip",
+   "t": 73.138
+  },
+  {
+   "id": "codex",
+   "sfx": "blip",
+   "t": 73.753
+  },
+  {
+   "id": "speed",
+   "sfx": "riser",
+   "t": 74.568
+  },
+  {
+   "id": "ultrafast",
+   "sfx": "warp",
+   "t": 75.393
+  },
+  {
+   "id": "eight",
+   "sfx": "hit",
+   "t": 76.764
+  },
+  {
+   "id": "threeh",
+   "sfx": "tick",
+   "t": 78.563
+  },
+  {
+   "id": "tokens",
+   "sfx": "hit",
+   "t": 79.063
+  },
+  {
+   "id": "cerebras",
+   "sfx": "whoosh",
+   "t": 80.84
+  },
+  {
+   "id": "cheap",
+   "sfx": "brake",
+   "t": 82.168
+  },
+  {
+   "id": "sixty",
+   "sfx": "coin",
+   "t": 84.473
+  },
+  {
+   "id": "threeout",
+   "sfx": "coin",
+   "t": 85.808
+  },
+  {
+   "id": "bundled",
+   "sfx": "swish",
+   "t": 88.486
+  },
+  {
+   "id": "pro500",
+   "sfx": "impact",
+   "t": 90.696
+  },
+  {
+   "id": "fiveh",
+   "sfx": "coin",
+   "t": 91.717
+  },
+  {
+   "id": "twentyfive",
+   "sfx": "hit",
+   "t": 93.192
+  },
+  {
+   "id": "devs",
+   "sfx": "whoosh",
+   "t": 95.429
+  },
+  {
+   "id": "agentsapi",
+   "sfx": "hit",
+   "t": 96.241
+  },
+  {
+   "id": "computeruse",
+   "sfx": "blip",
+   "t": 97.452
+  },
+  {
+   "id": "clicking",
+   "sfx": "click",
+   "t": 98.442
+  },
+  {
+   "id": "typing",
+   "sfx": "type",
+   "t": 98.83
+  },
+  {
+   "id": "navigating",
+   "sfx": "swish",
+   "t": 99.495
+  },
+  {
+   "id": "multi",
+   "sfx": "pop",
+   "t": 100.955
+  },
+  {
+   "id": "hosting",
+   "sfx": "blip",
+   "t": 103.129
+  },
+  {
+   "id": "aws",
+   "sfx": "lock",
+   "t": 106.918
+  },
+  {
+   "id": "bedrock",
+   "sfx": "hit",
+   "t": 107.982
+  },
+  {
+   "id": "decisions",
+   "sfx": "whoosh",
+   "t": 108.815
+  },
+  {
+   "id": "approve",
+   "sfx": "chime",
+   "t": 111.345
+  },
+  {
+   "id": "reject",
+   "sfx": "denied",
+   "t": 111.903
+  },
+  {
+   "id": "luna",
+   "sfx": "sparkle",
+   "t": 113.675
+  },
+  {
+   "id": "tencents",
+   "sfx": "coin",
+   "t": 114.48
+  },
+  {
+   "id": "codexT",
+   "sfx": "type",
+   "t": 116.738
+  },
+  {
+   "id": "runtimes",
+   "sfx": "blip",
+   "t": 118.289
+  },
+  {
+   "id": "phone",
+   "sfx": "swish",
+   "t": 119.339
+  },
+  {
+   "id": "voiceS",
+   "sfx": "blip",
+   "t": 120.019
+  },
+  {
+   "id": "review",
+   "sfx": "tick",
+   "t": 121.169
+  },
+  {
+   "id": "security",
+   "sfx": "scan",
+   "t": 123.228
+  },
+  {
+   "id": "harness",
+   "sfx": "swish",
+   "t": 124.54
+  },
+  {
+   "id": "opensrc",
+   "sfx": "chime",
+   "t": 125.368
+  },
+  {
+   "id": "signin",
+   "sfx": "click",
+   "t": 126.482
+  },
+  {
+   "id": "spend",
+   "sfx": "tick",
+   "t": 128.309
+  },
+  {
+   "id": "sixteen",
+   "sfx": "impact",
+   "t": 129.613
+  },
+  {
+   "id": "notion",
+   "sfx": "pop",
+   "t": 131.269
+  },
+  {
+   "id": "vercel",
+   "sfx": "pop",
+   "t": 131.792
+  },
+  {
+   "id": "devin",
+   "sfx": "pop",
+   "t": 132.349
+  },
+  {
+   "id": "token",
+   "sfx": "coin",
+   "t": 134.064
+  },
+  {
+   "id": "plugins",
+   "sfx": "whoosh",
+   "t": 135.067
+  },
+  {
+   "id": "sidebars",
+   "sfx": "swish",
+   "t": 135.751
+  },
+  {
+   "id": "panels",
+   "sfx": "swish",
+   "t": 136.389
+  },
+  {
+   "id": "mcp",
+   "sfx": "blip",
+   "t": 137.028
+  },
+  {
+   "id": "teamwork",
+   "sfx": "whoosh",
+   "t": 138.789
+  },
+  {
+   "id": "space",
+   "sfx": "impact",
+   "t": 140.243
+  },
+  {
+   "id": "teammates",
+   "sfx": "pop",
+   "t": 141.748
+  },
+  {
+   "id": "chatgptC",
+   "sfx": "pop",
+   "t": 142.34
+  },
+  {
+   "id": "dotsC",
+   "sfx": "pop",
+   "t": 143.118
+  },
+  {
+   "id": "together",
+   "sfx": "chime",
+   "t": 143.614
+  },
+  {
+   "id": "pages",
+   "sfx": "swish",
+   "t": 144.237
+  },
+  {
+   "id": "humans",
+   "sfx": "type",
+   "t": 145.997
+  },
+  {
+   "id": "slidesC",
+   "sfx": "swish",
+   "t": 147.755
+  },
+  {
+   "id": "weeksC",
+   "sfx": "tick",
+   "t": 149.098
+  },
+  {
+   "id": "mention",
+   "sfx": "blip",
+   "t": 149.883
+  },
+  {
+   "id": "slackC",
+   "sfx": "pop",
+   "t": 151.849
+  },
+  {
+   "id": "enter",
+   "sfx": "whoosh",
+   "t": 153.096
+  },
+  {
+   "id": "private",
+   "sfx": "lock",
+   "t": 153.924
+  },
+  {
+   "id": "zero",
+   "sfx": "hit",
+   "t": 155.231
+  },
+  {
+   "id": "safety",
+   "sfx": "scan",
+   "t": 157.03
+  },
+  {
+   "id": "staff",
+   "sfx": "denied",
+   "t": 158.702
+  },
+  {
+   "id": "inference",
+   "sfx": "blip",
+   "t": 160.192
+  },
+  {
+   "id": "confidential",
+   "sfx": "lock",
+   "t": 160.699
+  },
+  {
+   "id": "fall",
+   "sfx": "tick",
+   "t": 162.189
+  },
+  {
+   "id": "market",
+   "sfx": "impact",
+   "t": 163.723
+  },
+  {
+   "id": "commit",
+   "sfx": "coin",
+   "t": 165.556
+  },
+  {
+   "id": "thirtytwoP",
+   "sfx": "hit",
+   "t": 166.272
+  },
+  {
+   "id": "adobe",
+   "sfx": "pop",
+   "t": 167.704
+  },
+  {
+   "id": "figma",
+   "sfx": "pop",
+   "t": 168.25
+  },
+  {
+   "id": "salesforce",
+   "sfx": "pop",
+   "t": 168.737
+  },
+  {
+   "id": "crowdstrike",
+   "sfx": "pop",
+   "t": 169.469
+  },
+  {
+   "id": "but",
+   "sfx": "drone",
+   "t": 170.21
+  },
+  {
+   "id": "backdropW",
+   "sfx": "hit",
+   "t": 170.879
+  },
+  {
+   "id": "oneday",
+   "sfx": "tick",
+   "t": 172.001
+  },
+  {
+   "id": "scrapped",
+   "sfx": "shatter",
+   "t": 173.747
+  },
+  {
+   "id": "concerns",
+   "sfx": "tick",
+   "t": 176.749
+  },
+  {
+   "id": "weeks",
+   "sfx": "tick",
+   "t": 177.585
+  },
+  {
+   "id": "paused",
+   "sfx": "freeze",
+   "t": 178.434
+  },
+  {
+   "id": "incidents",
+   "sfx": "glitch",
+   "t": 181.184
+  },
+  {
+   "id": "gov",
+   "sfx": "glitch",
+   "t": 182.76
+  },
+  {
+   "id": "hugging",
+   "sfx": "glitch",
+   "t": 183.828
+  },
+  {
+   "id": "keynote",
+   "sfx": "swish",
+   "t": 185.299
+  },
+  {
+   "id": "none",
+   "sfx": "stamp",
+   "t": 186.138
+  },
+  {
+   "id": "question",
+   "sfx": "hit",
+   "t": 187.683
+  },
+  {
+   "id": "ship",
+   "sfx": "tick",
+   "t": 189.234
+  },
+  {
+   "id": "autonomous",
+   "sfx": "blip",
+   "t": 190.128
+  },
+  {
+   "id": "scrutiny",
+   "sfx": "riser",
+   "t": 191.693
+  },
+  {
+   "id": "peak",
+   "sfx": "impact",
+   "t": 192.62
+  },
+  {
+   "id": "alwaysO",
+   "sfx": "pop",
+   "t": 193.77
+  },
+  {
+   "id": "on",
+   "sfx": "blip",
+   "t": 194.208
+  },
+  {
+   "id": "spotlight",
+   "sfx": "spot",
+   "t": 195.335
+  }
+ ],
+ "duration": 200.43
+}

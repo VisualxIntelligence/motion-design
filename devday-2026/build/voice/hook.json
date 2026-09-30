@@ -1,0 +1,107 @@
+{
+ "say": "September twenty-ninth. San Francisco. OpenAI DevDay: more than twenty launches, for one point two billion weekly users. Here's everything, fast.",
+ "voiceId": "EXAVITQu4vr4xnSDxMaL",
+ "speed": 1.2,
+ "words": [
+  {
+   "w": "September",
+   "start": 0,
+   "end": 0.615
+  },
+  {
+   "w": "twenty-ninth.",
+   "start": 0.673,
+   "end": 1.312
+  },
+  {
+   "w": "San",
+   "start": 1.393,
+   "end": 1.579
+  },
+  {
+   "w": "Francisco.",
+   "start": 1.625,
+   "end": 2.357
+  },
+  {
+   "w": "OpenAI",
+   "start": 2.45,
+   "end": 3.146
+  },
+  {
+   "w": "DevDay:",
+   "start": 3.286,
+   "end": 3.913
+  },
+  {
+   "w": "more",
+   "start": 4.145,
+   "end": 4.319
+  },
+  {
+   "w": "than",
+   "start": 4.342,
+   "end": 4.447
+  },
+  {
+   "w": "twenty",
+   "start": 4.493,
+   "end": 4.725
+  },
+  {
+   "w": "launches,",
+   "start": 4.772,
+   "end": 5.178
+  },
+  {
+   "w": "for",
+   "start": 5.201,
+   "end": 5.306
+  },
+  {
+   "w": "one",
+   "start": 5.364,
+   "end": 5.526
+  },
+  {
+   "w": "point",
+   "start": 5.561,
+   "end": 5.735
+  },
+  {
+   "w": "two",
+   "start": 5.759,
+   "end": 5.886
+  },
+  {
+   "w": "billion",
+   "start": 5.956,
+   "end": 6.293
+  },
+  {
+   "w": "weekly",
+   "start": 6.351,
+   "end": 6.606
+  },
+  {
+   "w": "users.",
+   "start": 6.664,
+   "end": 7.175
+  },
+  {
+   "w": "Here's",
+   "start": 7.314,
+   "end": 7.5
+  },
+  {
+   "w": "everything,",
+   "start": 7.535,
+   "end": 7.814
+  },
+  {
+   "w": "fast.",
+   "start": 7.837,
+   "end": 8.452
+  }
+ ]
+}
