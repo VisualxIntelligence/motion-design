@@ -2,7 +2,7 @@
 
 A fast-paced ~3:20, 1080p/30 explainer of the September 29, 2026 DevDay keynote (Dots, GPT-6.1 Sol, Ultrafast, Pro 500, the developer platform, collaboration, enterprise and the safety backdrop), built with **Three.js** (3D), **HyperFrames** (HTML → MP4, GSAP timeline) and **ElevenLabs** (voice-over with timestamps, sound effects, music).
 
-Render: `renders/devday-2026.mp4`
+Render: [`renders/devday-2026.mp4`](renders/devday-2026.mp4) (web encode, ~3.3 Mbps; the CRF-16 master is kept out of git)
 
 ## How it syncs
 Everything on screen is scheduled from **word-level timestamps**:
@@ -19,8 +19,10 @@ node tools/tts.mjs      # ElevenLabs voice + word timing          -> build/timin
 node tools/audio.mjs    # 25 ElevenLabs SFX, music, ducked mix     -> assets/sfx/*, assets/music.mp3, audio/mix.wav
 ffmpeg -i audio/mix.wav -c:a aac -b:a 256k audio/mix.m4a
 node tools/build.mjs    # bundle src/ -> scene.js, index.html
-npx hyperframes lint . && npx hyperframes render . -o renders/devday-2026.mp4 -f 30
+npx hyperframes lint . && node tools/check-overlaps.mjs
+npx hyperframes render . -o renders/devday-2026-master.mp4 -f 30 -q looks -w 4   # ~80 min on 4 CPU cores
 ```
+HyperFrames' auto-calibration picks 1 worker for slow CPU (SwiftShader) frames; `-w 4` keeps all cores busy (~1.3 frames/s here).
 Look-dev: `node tools/shots.mjs 12 45.5` (stills), `node tools/shots.mjs --cue sol,pro500` (0.35s after a cue), `node tools/shots.mjs --sheet 1.5` (contact sheets).
 
 ### Audio
@@ -40,7 +42,12 @@ HyperFrames renders frames in parallel workers that seek the timeline independen
 - impulses (shake, flash, whip, glitch), counters, typing and gauges are evaluated from `t` on each seek instead of inside tween callbacks (the host may seek with events suppressed);
 - the WebGL render is scheduled once per seek batch via a patched `totalTime` + microtask;
 - text → particle sampling uses per-particle seeded rejection sampling with `measureText` bounds, so Chrome's canvas-readback noise can't reshuffle particles between workers;
-- the timeline is registered only after fonts load and the scene is built (and wrapped, since GSAP timelines are thenables).
+- the timeline is registered only after fonts load and the scene is built (and wrapped, since GSAP timelines are thenables);
+- the camera is posed before DOM updaters run, so labels pinned to 3D points use this frame's camera.
+
+Two checks guard this:
+- `node tools/check-overlaps.mjs` fails if two tweens animate the same property of the same target over overlapping time (or a `set()` lands inside a tween). Overlapping `.to()` tweens resolve differently depending on seek order — an early render had a label stuck on screen in every fourth frame (one worker) because of exactly this.
+- `node tools/check-determinism.mjs` replays every frame the way each of four interleaved workers reaches it, plus sequentially and with random jumps, and compares the visual state (tweened state + computed styles of visible elements). The worker paths must match exactly; random backward jumps can still leave the launch counter's pulse mid-state, which only affects scrubbing, not rendering.
 
 ## Accuracy notes
 Figures follow the source article (compiled from secondary reports; prices and benchmarks vary by outlet — check OpenAI's pricing page). Benchmark bars are labelled as illustrative; The Register's view is paraphrased, not quoted.

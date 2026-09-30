@@ -6,4 +6,5 @@ tools/_*.mjs
 .env
 renders/work-*
 renders/.*
-renders/*-master.mp4
+renders/*master*.mp4
+renders/seg-*

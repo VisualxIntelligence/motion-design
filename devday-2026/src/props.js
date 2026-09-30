@@ -342,7 +342,7 @@ export function makePhone(tx) {
 // ---------------------------------------------------------------- ChatGPT Space platform
 export function makeSpace() {
   const g = new THREE.Group();
-  const disc = new THREE.Mesh(new THREE.CylinderGeometry(5.6, 5.8, 0.28, 96), new THREE.MeshStandardMaterial({ color: 0x12162c, roughness: 0.7, metalness: 0.1, envMapIntensity: 0.25 })); disc.position.y = FLOOR_Y - 0.14; g.add(disc);
+  const disc = new THREE.Mesh(new THREE.CylinderGeometry(5.6, 5.8, 0.28, 96), new THREE.MeshStandardMaterial({ color: 0x12162c, roughness: 0.7, metalness: 0.1, envMapIntensity: 0.25 })); disc.position.y = FLOOR_Y - 0.12; g.add(disc); // top face 2 cm above the stage floor (coplanar faces z-fight)
   const rim = new THREE.Mesh(new THREE.TorusGeometry(5.7, 0.04, 8, 160), new THREE.MeshBasicMaterial({ color: 0x9b6bff })); rim.rotation.x = Math.PI / 2; rim.position.y = FLOOR_Y + 0.01; g.add(rim);
   const stack = new THREE.Group(); for (let i = 0; i < 5; i++) { const s = new THREE.Mesh(new RoundedBoxGeometry(1.7, 0.16, 1.2, 3, 0.06), new THREE.MeshPhysicalMaterial({ color: PAL[i], roughness: 0.3, clearcoat: 1, emissive: PAL[i], emissiveIntensity: 0.25 })); s.position.y = i * 0.22; s.rotation.y = i * 0.18; stack.add(s); }
   stack.position.y = FLOOR_Y + 0.12; g.add(stack);
