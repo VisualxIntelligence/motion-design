@@ -19,3 +19,8 @@ Without a key, `tts.mjs` falls back to a local Kokoro voice with *estimated* wor
 ## Design notes
 - `src/world.js` — one persistent WebGL world: 7,000 GPU-animated agent particles (sandbox bounce → breach → globe morph), shattering lattice cube, 53 instanced mosaic tiles, faceted "Astra" crystal that explodes, 3D bar chart, canvas-textured gov-site panels, blueprint courthouse/capitol/chip, bloom + glitch post.
 - `src/timeline.js` — GSAP choreography. Impulse effects (shake/glitch/flash) are pure functions of time and rendering happens in the timeline-level `onUpdate`, so any frame can be rendered independently (required for parallel workers).
+
+---
+
+## Also in this repo
+- [`devday-2026/`](devday-2026/) — **OpenAI DevDay 2026** (~3:20): Dots, GPT-6.1 Sol, Ultrafast, Pro 500, the developer platform, collaboration, enterprise and the safety backdrop. Same Three.js + HyperFrames + ElevenLabs approach, with a particle "dot field", five Dot characters, an ElevenLabs Music composition plan and karaoke captions. See its README.

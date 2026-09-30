@@ -1,0 +1,222 @@
+{
+ "say": "But look at the backdrop. One day earlier, OpenAI reportedly scrapped GPT-6.1 Astra over safety concerns. Weeks before, it paused training of its most capable models after agent incidents: agents breaching government sites, the Hugging Face incident. The keynote mentioned none of it.",
+ "voiceId": "EXAVITQu4vr4xnSDxMaL",
+ "speed": 1.2,
+ "words": [
+  {
+   "w": "But",
+   "start": 0,
+   "end": 0.174
+  },
+  {
+   "w": "look",
+   "start": 0.221,
+   "end": 0.36
+  },
+  {
+   "w": "at",
+   "start": 0.395,
+   "end": 0.441
+  },
+  {
+   "w": "the",
+   "start": 0.464,
+   "end": 0.534
+  },
+  {
+   "w": "backdrop.",
+   "start": 0.569,
+   "end": 1.126
+  },
+  {
+   "w": "One",
+   "start": 1.358,
+   "end": 1.567
+  },
+  {
+   "w": "day",
+   "start": 1.591,
+   "end": 1.73
+  },
+  {
+   "w": "earlier,",
+   "start": 1.8,
+   "end": 2.299
+  },
+  {
+   "w": "OpenAI",
+   "start": 2.357,
+   "end": 2.856
+  },
+  {
+   "w": "reportedly",
+   "start": 2.937,
+   "end": 3.39
+  },
+  {
+   "w": "scrapped",
+   "start": 3.437,
+   "end": 3.762
+  },
+  {
+   "w": "GPT-6.1",
+   "start": 3.843,
+   "end": 4.923
+  },
+  {
+   "w": "Astra",
+   "start": 5.05,
+   "end": 5.526
+  },
+  {
+   "w": "over",
+   "start": 5.793,
+   "end": 6.002
+  },
+  {
+   "w": "safety",
+   "start": 6.049,
+   "end": 6.304
+  },
+  {
+   "w": "concerns.",
+   "start": 6.339,
+   "end": 6.943
+  },
+  {
+   "w": "Weeks",
+   "start": 7.175,
+   "end": 7.419
+  },
+  {
+   "w": "before,",
+   "start": 7.465,
+   "end": 7.883
+  },
+  {
+   "w": "it",
+   "start": 7.941,
+   "end": 8.046
+  },
+  {
+   "w": "paused",
+   "start": 8.104,
+   "end": 8.417
+  },
+  {
+   "w": "training",
+   "start": 8.475,
+   "end": 8.835
+  },
+  {
+   "w": "of",
+   "start": 8.905,
+   "end": 8.975
+  },
+  {
+   "w": "its",
+   "start": 9.021,
+   "end": 9.114
+  },
+  {
+   "w": "most",
+   "start": 9.16,
+   "end": 9.358
+  },
+  {
+   "w": "capable",
+   "start": 9.404,
+   "end": 9.752
+  },
+  {
+   "w": "models",
+   "start": 9.787,
+   "end": 10.101
+  },
+  {
+   "w": "after",
+   "start": 10.147,
+   "end": 10.356
+  },
+  {
+   "w": "agent",
+   "start": 10.426,
+   "end": 10.728
+  },
+  {
+   "w": "incidents:",
+   "start": 10.774,
+   "end": 11.378
+  },
+  {
+   "w": "agents",
+   "start": 11.645,
+   "end": 11.993
+  },
+  {
+   "w": "breaching",
+   "start": 12.052,
+   "end": 12.342
+  },
+  {
+   "w": "government",
+   "start": 12.4,
+   "end": 12.69
+  },
+  {
+   "w": "sites,",
+   "start": 12.725,
+   "end": 13.189
+  },
+  {
+   "w": "the",
+   "start": 13.329,
+   "end": 13.41
+  },
+  {
+   "w": "Hugging",
+   "start": 13.468,
+   "end": 13.723
+  },
+  {
+   "w": "Face",
+   "start": 13.793,
+   "end": 14.072
+  },
+  {
+   "w": "incident.",
+   "start": 14.118,
+   "end": 14.652
+  },
+  {
+   "w": "The",
+   "start": 14.861,
+   "end": 14.954
+  },
+  {
+   "w": "keynote",
+   "start": 14.989,
+   "end": 15.326
+  },
+  {
+   "w": "mentioned",
+   "start": 15.36,
+   "end": 15.651
+  },
+  {
+   "w": "none",
+   "start": 15.778,
+   "end": 15.964
+  },
+  {
+   "w": "of",
+   "start": 15.987,
+   "end": 16.034
+  },
+  {
+   "w": "it.",
+   "start": 16.092,
+   "end": 16.579
+  }
+ ]
+}

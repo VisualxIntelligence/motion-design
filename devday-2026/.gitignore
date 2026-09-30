@@ -1,0 +1,8 @@
+snaps
+audio/mix.wav
+renders/*.log
+renders/raw.mp4
+tools/_*.mjs
+.env
+renders/work-*
+renders/.*

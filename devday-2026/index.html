@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=1920, height=1080">
+<title>OpenAI DevDay 2026</title>
+<style>@font-face{font-family:"Unbounded";src:url(vendor/fonts/unbounded-latin-wght-normal.woff2) format("woff2");font-weight:200 900}
+@font-face{font-family:"Space Grotesk";src:url(vendor/fonts/space-grotesk-latin-wght-normal.woff2) format("woff2");font-weight:300 700}
+@font-face{font-family:"JetBrains Mono";src:url(vendor/fonts/jetbrains-mono-latin-500-normal.woff2) format("woff2");font-weight:500}
+@font-face{font-family:"JetBrains Mono";src:url(vendor/fonts/jetbrains-mono-latin-700-normal.woff2) format("woff2");font-weight:700}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#05060c;width:1920px;height:1080px;overflow:hidden}
+:root{
+  --bg:#05060c;--tx:#f4f6ff;--dim:#9aa3c4;--mute:#5d6688;
+  --coral:#ff5a4e;--sun:#ffc53d;--mint:#2ee6a6;--sky:#3da9fc;--violet:#9b6bff;--pink:#ff6fb5;--red:#ff3355;--ice:#bfe9ff;--orange:#ff9900;
+  --glass:rgba(12,14,27,.86);--line:rgba(255,255,255,.13)
+}
+#root{position:relative;width:1920px;height:1080px;overflow:hidden;font-family:"Space Grotesk",sans-serif;color:var(--tx)}
+#gl{position:absolute;left:0;top:0;width:1920px;height:1080px}
+.ui{position:absolute;inset:0;pointer-events:none}
+.abs{position:absolute;visibility:hidden;opacity:0}
+
+/* type */
+.d{font-family:"Unbounded",sans-serif;font-weight:800;letter-spacing:-.035em;line-height:.9;text-transform:uppercase}
+.d9{font-family:"Unbounded",sans-serif;font-weight:900;letter-spacing:-.045em;line-height:.86;text-transform:uppercase}
+.m{font-family:"JetBrains Mono",monospace;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.m5{font-family:"JetBrains Mono",monospace;font-weight:500;letter-spacing:.04em}
+.tag{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:22px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+.num{font-family:"Unbounded",sans-serif;font-weight:800;letter-spacing:-.05em;font-variant-numeric:tabular-nums;line-height:.9}
+.glow{text-shadow:0 0 40px rgba(255,255,255,.28)}
+.coral{color:var(--coral)}.sun{color:var(--sun)}.mint{color:var(--mint)}.sky{color:var(--sky)}.violet{color:var(--violet)}.pink{color:var(--pink)}.red{color:var(--red)}.dim{color:var(--dim)}.ice{color:var(--ice)}.orange{color:var(--orange)}
+
+/* components */
+.chip{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:22px;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap;
+  padding:11px 20px 10px;border-radius:999px;border:2px solid currentColor;background:rgba(6,8,16,.78);display:inline-flex;align-items:center;gap:12px}
+.chip i{width:12px;height:12px;border-radius:50%;background:currentColor;display:inline-block;box-shadow:0 0 12px currentColor}
+.card{background:var(--glass);border:1.5px solid var(--line);border-radius:26px;padding:26px 30px;box-shadow:0 20px 60px rgba(0,0,0,.45)}
+.stamp{border:8px solid currentColor;border-radius:14px;padding:8px 28px 4px;font-family:"Unbounded",sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:-.02em;background:rgba(5,6,12,.55);white-space:nowrap}
+.pill{display:inline-block;padding:6px 16px;border-radius:999px;font-family:"JetBrains Mono",monospace;font-weight:700;font-size:18px;letter-spacing:.1em;text-transform:uppercase}
+.row{display:flex;align-items:center;gap:18px}
+.center{left:960px;transform:translateX(-50%)}
+.foot{font-family:"JetBrains Mono",monospace;font-weight:500;font-size:16px;color:#6d779c;letter-spacing:.06em;text-transform:uppercase}
+.bar{height:26px;border-radius:13px;background:rgba(255,255,255,.08);overflow:hidden;position:relative}
+.bar b{position:absolute;left:0;top:0;bottom:0;border-radius:13px;width:0}
+.ok{color:var(--mint)}.no{color:var(--red)}
+.dots5{display:inline-flex;gap:7px;vertical-align:middle}.dots5 span{width:14px;height:14px;border-radius:50%;display:inline-block}
+
+/* HUD */
+#hud{position:absolute;left:48px;right:48px;top:36px;display:flex;justify-content:space-between;align-items:center}
+#hudL{display:flex;align-items:center;gap:16px}
+#sect{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:20px;letter-spacing:.16em;color:var(--tx);padding:9px 18px;border-radius:999px;background:rgba(6,8,16,.7);border:1.5px solid var(--line)}
+#lc{position:absolute;right:48px;bottom:118px;text-align:right}
+#lcN{font-family:"Unbounded",sans-serif;font-weight:800;font-size:40px;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+#prog{position:absolute;left:0;right:0;bottom:0;height:6px;background:rgba(255,255,255,.06)}
+#progB{position:absolute;left:0;top:0;bottom:0;width:0;background:linear-gradient(90deg,var(--coral),var(--sun),var(--mint),var(--sky),var(--violet))}
+.tick{position:absolute;top:-4px;width:2px;height:14px;background:rgba(255,255,255,.35)}
+.toast{position:absolute;right:48px;bottom:196px;font-family:"JetBrains Mono",monospace;font-weight:700;font-size:20px;letter-spacing:.1em;padding:8px 16px;border-radius:999px;background:rgba(6,8,16,.82);border:1.5px solid currentColor;white-space:nowrap;visibility:hidden;opacity:0}
+
+/* captions */
+#caps{position:absolute;left:0;right:0;bottom:44px;height:80px}
+.cap{position:absolute;left:960px;bottom:0;transform:translateX(-50%);visibility:hidden;opacity:0;white-space:nowrap;font-weight:700;font-size:44px;letter-spacing:-.01em;
+  padding:8px 26px 10px;border-radius:16px;background:rgba(5,6,12,.62);border:1px solid rgba(255,255,255,.07)}
+.cap span{opacity:.32;display:inline-block;margin:0 .12em}
+.cap span.h{color:var(--sun)}
+
+/* windows */
+.win{border-radius:18px;background:#0c0e1a;border:1.5px solid rgba(255,255,255,.14);box-shadow:0 30px 80px rgba(0,0,0,.55);overflow:hidden}
+.winbar{height:44px;background:#151827;display:flex;align-items:center;gap:9px;padding:0 18px;border-bottom:1px solid rgba(255,255,255,.07)}
+.winbar i{width:13px;height:13px;border-radius:50%;display:inline-block}
+.term{font-family:"JetBrains Mono",monospace;font-weight:500;font-size:30px;line-height:1.6;padding:22px 28px;color:#cfd6f5;white-space:pre}
+.term .p{color:var(--mint)}.term .c{color:var(--sky)}.term .y{color:var(--sun)}.term .r{color:var(--coral)}.term .v{color:var(--violet)}
+.tile{border-radius:18px;background:rgba(18,20,36,.86);border:1.5px solid var(--line);display:flex;align-items:center;justify-content:center;font-weight:700;text-align:center}
+</style></head>
+<body>
+<div id="root" data-composition-id="root" data-width="1920" data-height="1080" data-start="0" data-duration="200.43">
+  <canvas id="gl" width="1920" height="1080"></canvas>
+  <div class="ui" id="ui"></div>
+  <div id="caps"></div>
+  <div id="fadein" style="position:absolute;inset:0;background:#05060c"></div>
+  <div id="fadeout" style="position:absolute;inset:0;background:#05060c;opacity:0"></div>
+  <audio id="mix" src="audio/mix.m4a" data-start="0" data-duration="200.43" data-track-index="1" data-volume="1"></audio>
+</div>
+<script src="vendor/gsap.min.js"></script>
+<script src="scene.js"></script>
+<script>
+  // scene.js builds asynchronously (fonts -> 3D text sampling -> timeline); register only once it is complete.
+  window.__sceneReady.then(function (r) { window.__timelines = window.__timelines || {}; window.__timelines["root"] = r.tl; });
+</script>
+</body></html>
