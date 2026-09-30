@@ -39,7 +39,7 @@ Look-dev: `node tools/shots.mjs 12 45.5` (stills), `node tools/shots.mjs --cue s
 
 ### Deterministic frames
 HyperFrames renders frames in parallel workers that seek the timeline independently, so every frame is a pure function of time:
-- impulses (shake, flash, whip, glitch), counters, typing and gauges are evaluated from `t` on each seek instead of inside tween callbacks (the host may seek with events suppressed);
+- impulses (shake, flash, whip, glitch), counters (including the launch counter's pulse), typing and gauges are evaluated from `t` on each seek instead of inside tween callbacks (the host may seek with events suppressed);
 - the WebGL render is scheduled once per seek batch via a patched `totalTime` + microtask;
 - text → particle sampling uses per-particle seeded rejection sampling with `measureText` bounds, so Chrome's canvas-readback noise can't reshuffle particles between workers;
 - the timeline is registered only after fonts load and the scene is built (and wrapped, since GSAP timelines are thenables);
@@ -47,7 +47,7 @@ HyperFrames renders frames in parallel workers that seek the timeline independen
 
 Two checks guard this:
 - `node tools/check-overlaps.mjs` fails if two tweens animate the same property of the same target over overlapping time (or a `set()` lands inside a tween). Overlapping `.to()` tweens resolve differently depending on seek order — an early render had a label stuck on screen in every fourth frame (one worker) because of exactly this.
-- `node tools/check-determinism.mjs` replays every frame the way each of four interleaved workers reaches it, plus sequentially and with random jumps, and compares the visual state (tweened state + computed styles of visible elements). The worker paths must match exactly; random backward jumps can still leave the launch counter's pulse mid-state, which only affects scrubbing, not rendering.
+- `node tools/check-determinism.mjs` replays every frame the way each of four interleaved workers reaches it, plus sequentially and with random jumps, and compares the visual state (tweened state + computed styles of visible elements). The worker paths must match exactly; random backward jumps can still leave the pricing-tier cards' stamp at its 1.12 start scale (and some identity transforms as `matrix(1,0,0,1,0,0)` instead of `none`), which only affects scrubbing, not rendering.
 
 ## Accuracy notes
 Figures follow the source article (compiled from secondary reports; prices and benchmarks vary by outlet — check OpenAI's pricing page). Benchmark bars are labelled as illustrative; The Register's view is paraphrased, not quoted.
