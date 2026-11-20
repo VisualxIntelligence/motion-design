@@ -109,11 +109,18 @@ function hud() {
   const lc = el(`<div class="tag" style="font-size:16px">LAUNCHES COVERED</div><div id="lcN">00<span class="dim" style="font-size:24px"> / 20+</span></div>`, 'right:48px;bottom:118px;text-align:right', ''); lc.id = 'lc';
   tl.fromTo(lc, { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.4 }, q('dots') - 0.2); tl.to(lc, { autoAlpha: 0, duration: 0.4 }, st('backdrop') - 0.2);
   const lcN = lc.querySelector('#lcN'); const times = L.map(([id]) => q(id));
-  dyn((T) => { const n = times.filter((x) => T >= x).length; const s = String(n).padStart(2, '0'); if (lcN.firstChild.textContent !== s) lcN.firstChild.textContent = s; });
+  // count + pulse from T (per-launch fromTo tweens left a later launch's from-state behind on backward seeks):
+  // the latest launch <= T eases scale 1.35 -> 1 and its color -> #f4f6ff over 0.4s, power3.out (= quartic in GSAP), rounded like GSAP
+  const rgb = (h) => [1, 3, 5].map((k) => parseInt(h.slice(k, k + 2), 16)), W = rgb('#f4f6ff'), P3 = (x) => 1 - Math.pow(1 - cl(x), 4);
+  let lt = '', lcol = '';
+  dyn((T) => { let n = 0, k = -1; times.forEach((x, i) => { if (T >= x) { n++; if (k < 0 || x >= times[k]) k = i; } });
+    const s = String(n).padStart(2, '0'); if (lcN.firstChild.textContent !== s) lcN.firstChild.textContent = s;
+    const e = k < 0 ? 1 : P3((T - times[k]) / 0.4), C = k < 0 ? W : rgb(HEX[L[k][2]]);
+    const tf = `scale(${Math.round((1.35 - 0.35 * e) * 1e4) / 1e4})`, col = `rgb(${C.map((v, j) => Math.round(v + (W[j] - v) * e)).join(', ')})`;
+    if (tf !== lt) lcN.style.transform = lt = tf; if (col !== lcol) lcN.style.color = lcol = col; });
   L.forEach(([id, name, c], i) => { const t0 = q(id); const nxt = times[i + 1] ?? t0 + 2; const tEnd = Math.min(t0 + 1.9, nxt - 0.05);
     const ts = document.createElement('div'); ts.className = 'toast'; ts.style.color = HEX[c]; ts.innerHTML = `+ ${name}`; ui().appendChild(ts);
-    tl.fromTo(ts, { autoAlpha: 0, x: 40 }, { autoAlpha: 1, x: 0, duration: 0.25, ease: 'back.out(2)' }, t0); tl.to(ts, { autoAlpha: 0, x: 20, duration: 0.2 }, tEnd - 0.2);
-    tl.fromTo(lcN, { scale: 1.35, color: HEX[c] }, { scale: 1, color: '#f4f6ff', duration: 0.4, ease: 'power3.out' }, t0); });
+    tl.fromTo(ts, { autoAlpha: 0, x: 40 }, { autoAlpha: 1, x: 0, duration: 0.25, ease: 'back.out(2)' }, t0); tl.to(ts, { autoAlpha: 0, x: 20, duration: 0.2 }, tEnd - 0.2); });
 }
 
 // ---------- word-synced captions: chunk appears, each word lights up as it is spoken
