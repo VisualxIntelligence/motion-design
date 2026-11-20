@@ -1,0 +1,282 @@
+{
+ "say": "For developers, the Agents API adds computer use: clicking, typing and navigating software, plus multi-agent support, with OpenAI hosting the infrastructure. Agents can also run entirely inside AWS, through Bedrock. And the new Decisions API routes quick, finite choices, like approve or reject, to the tiny GPT-6 Luna, at ten cents per million input tokens.",
+ "voiceId": "EXAVITQu4vr4xnSDxMaL",
+ "speed": 1.2,
+ "words": [
+  {
+   "w": "For",
+   "start": 0,
+   "end": 0.139
+  },
+  {
+   "w": "developers,",
+   "start": 0.174,
+   "end": 0.673
+  },
+  {
+   "w": "the",
+   "start": 0.697,
+   "end": 0.766
+  },
+  {
+   "w": "Agents",
+   "start": 0.836,
+   "end": 1.126
+  },
+  {
+   "w": "API",
+   "start": 1.161,
+   "end": 1.591
+  },
+  {
+   "w": "adds",
+   "start": 1.683,
+   "end": 1.95
+  },
+  {
+   "w": "computer",
+   "start": 1.997,
+   "end": 2.403
+  },
+  {
+   "w": "use:",
+   "start": 2.473,
+   "end": 2.775
+  },
+  {
+   "w": "clicking,",
+   "start": 3.007,
+   "end": 3.402
+  },
+  {
+   "w": "typing",
+   "start": 3.425,
+   "end": 3.82
+  },
+  {
+   "w": "and",
+   "start": 3.889,
+   "end": 3.971
+  },
+  {
+   "w": "navigating",
+   "start": 4.04,
+   "end": 4.493
+  },
+  {
+   "w": "software,",
+   "start": 4.54,
+   "end": 5.074
+  },
+  {
+   "w": "plus",
+   "start": 5.201,
+   "end": 5.48
+  },
+  {
+   "w": "multi-agent",
+   "start": 5.55,
+   "end": 6.165
+  },
+  {
+   "w": "support,",
+   "start": 6.211,
+   "end": 6.699
+  },
+  {
+   "w": "with",
+   "start": 6.838,
+   "end": 6.978
+  },
+  {
+   "w": "OpenAI",
+   "start": 7.036,
+   "end": 7.605
+  },
+  {
+   "w": "hosting",
+   "start": 7.674,
+   "end": 8.022
+  },
+  {
+   "w": "the",
+   "start": 8.069,
+   "end": 8.139
+  },
+  {
+   "w": "infrastructure.",
+   "start": 8.197,
+   "end": 8.905
+  },
+  {
+   "w": "Agents",
+   "start": 9.23,
+   "end": 9.578
+  },
+  {
+   "w": "can",
+   "start": 9.613,
+   "end": 9.694
+  },
+  {
+   "w": "also",
+   "start": 9.729,
+   "end": 9.985
+  },
+  {
+   "w": "run",
+   "start": 10.066,
+   "end": 10.275
+  },
+  {
+   "w": "entirely",
+   "start": 10.344,
+   "end": 10.913
+  },
+  {
+   "w": "inside",
+   "start": 11.006,
+   "end": 11.517
+  },
+  {
+   "w": "AWS,",
+   "start": 11.563,
+   "end": 12.283
+  },
+  {
+   "w": "through",
+   "start": 12.306,
+   "end": 12.504
+  },
+  {
+   "w": "Bedrock.",
+   "start": 12.527,
+   "end": 12.945
+  },
+  {
+   "w": "And",
+   "start": 13.154,
+   "end": 13.316
+  },
+  {
+   "w": "the",
+   "start": 13.351,
+   "end": 13.421
+  },
+  {
+   "w": "new",
+   "start": 13.444,
+   "end": 13.525
+  },
+  {
+   "w": "Decisions",
+   "start": 13.56,
+   "end": 13.885
+  },
+  {
+   "w": "API",
+   "start": 13.92,
+   "end": 14.234
+  },
+  {
+   "w": "routes",
+   "start": 14.315,
+   "end": 14.547
+  },
+  {
+   "w": "quick,",
+   "start": 14.605,
+   "end": 14.895
+  },
+  {
+   "w": "finite",
+   "start": 14.942,
+   "end": 15.313
+  },
+  {
+   "w": "choices,",
+   "start": 15.337,
+   "end": 15.731
+  },
+  {
+   "w": "like",
+   "start": 15.755,
+   "end": 15.917
+  },
+  {
+   "w": "approve",
+   "start": 15.94,
+   "end": 16.277
+  },
+  {
+   "w": "or",
+   "start": 16.323,
+   "end": 16.428
+  },
+  {
+   "w": "reject,",
+   "start": 16.498,
+   "end": 16.904
+  },
+  {
+   "w": "to",
+   "start": 17.078,
+   "end": 17.159
+  },
+  {
+   "w": "the",
+   "start": 17.217,
+   "end": 17.287
+  },
+  {
+   "w": "tiny",
+   "start": 17.322,
+   "end": 17.601
+  },
+  {
+   "w": "GPT-6",
+   "start": 17.659,
+   "end": 18.239
+  },
+  {
+   "w": "Luna,",
+   "start": 18.32,
+   "end": 18.727
+  },
+  {
+   "w": "at",
+   "start": 18.901,
+   "end": 19.04
+  },
+  {
+   "w": "ten",
+   "start": 19.075,
+   "end": 19.284
+  },
+  {
+   "w": "cents",
+   "start": 19.354,
+   "end": 19.574
+  },
+  {
+   "w": "per",
+   "start": 19.609,
+   "end": 19.725
+  },
+  {
+   "w": "million",
+   "start": 19.783,
+   "end": 20.097
+  },
+  {
+   "w": "input",
+   "start": 20.166,
+   "end": 20.433
+  },
+  {
+   "w": "tokens.",
+   "start": 20.468,
+   "end": 21.223
+  }
+ ]
+}

@@ -1,0 +1,2788 @@
+{
+ "mode": "elevenlabs",
+ "duration": 200.43,
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.6,
+   "end": 9.09,
+   "file": "/build/voice/hook.mp3",
+   "words": [
+    {
+     "w": "September",
+     "start": 0,
+     "end": 0.615
+    },
+    {
+     "w": "twenty-ninth.",
+     "start": 0.673,
+     "end": 1.312
+    },
+    {
+     "w": "San",
+     "start": 1.393,
+     "end": 1.579
+    },
+    {
+     "w": "Francisco.",
+     "start": 1.625,
+     "end": 2.357
+    },
+    {
+     "w": "OpenAI",
+     "start": 2.45,
+     "end": 3.146
+    },
+    {
+     "w": "DevDay:",
+     "start": 3.286,
+     "end": 3.913
+    },
+    {
+     "w": "more",
+     "start": 4.145,
+     "end": 4.319
+    },
+    {
+     "w": "than",
+     "start": 4.342,
+     "end": 4.447
+    },
+    {
+     "w": "twenty",
+     "start": 4.493,
+     "end": 4.725
+    },
+    {
+     "w": "launches,",
+     "start": 4.772,
+     "end": 5.178
+    },
+    {
+     "w": "for",
+     "start": 5.201,
+     "end": 5.306
+    },
+    {
+     "w": "one",
+     "start": 5.364,
+     "end": 5.526
+    },
+    {
+     "w": "point",
+     "start": 5.561,
+     "end": 5.735
+    },
+    {
+     "w": "two",
+     "start": 5.759,
+     "end": 5.886
+    },
+    {
+     "w": "billion",
+     "start": 5.956,
+     "end": 6.293
+    },
+    {
+     "w": "weekly",
+     "start": 6.351,
+     "end": 6.606
+    },
+    {
+     "w": "users.",
+     "start": 6.664,
+     "end": 7.175
+    },
+    {
+     "w": "Here's",
+     "start": 7.314,
+     "end": 7.5
+    },
+    {
+     "w": "everything,",
+     "start": 7.535,
+     "end": 7.814
+    },
+    {
+     "w": "fast.",
+     "start": 7.837,
+     "end": 8.452
+    }
+   ],
+   "estimated": false
+  },
+  {
+   "id": "dots",
+   "start": 9.21,
+   "end": 19.789,
+   "file": "/build/voice/dots.mp3",
+   "words": [
+    {
+     "w": "First:",
+     "start": 0,
+     "end": 0.441
+    },
+    {
+     "w": "Dots.",
+     "start": 0.499,
+     "end": 0.917
+    },
+    {
+     "w": "Always-on",
+     "start": 0.952,
+     "end": 1.37
+    },
+    {
+     "w": "personal",
+     "start": 1.428,
+     "end": 1.718
+    },
+    {
+     "w": "agents.",
+     "start": 1.776,
+     "end": 2.264
+    },
+    {
+     "w": "Each",
+     "start": 2.438,
+     "end": 2.612
+    },
+    {
+     "w": "dot",
+     "start": 2.67,
+     "end": 2.844
+    },
+    {
+     "w": "runs",
+     "start": 2.891,
+     "end": 3.088
+    },
+    {
+     "w": "twenty-four",
+     "start": 3.135,
+     "end": 3.471
+    },
+    {
+     "w": "seven,",
+     "start": 3.518,
+     "end": 3.808
+    },
+    {
+     "w": "on",
+     "start": 3.855,
+     "end": 3.971
+    },
+    {
+     "w": "its",
+     "start": 4.005,
+     "end": 4.087
+    },
+    {
+     "w": "own",
+     "start": 4.122,
+     "end": 4.226
+    },
+    {
+     "w": "cloud",
+     "start": 4.284,
+     "end": 4.505
+    },
+    {
+     "w": "computer,",
+     "start": 4.54,
+     "end": 4.899
+    },
+    {
+     "w": "with",
+     "start": 4.923,
+     "end": 5.027
+    },
+    {
+     "w": "its",
+     "start": 5.05,
+     "end": 5.12
+    },
+    {
+     "w": "own",
+     "start": 5.155,
+     "end": 5.224
+    },
+    {
+     "w": "browser,",
+     "start": 5.259,
+     "end": 5.735
+    },
+    {
+     "w": "and",
+     "start": 5.84,
+     "end": 5.968
+    },
+    {
+     "w": "learns",
+     "start": 6.026,
+     "end": 6.211
+    },
+    {
+     "w": "your",
+     "start": 6.246,
+     "end": 6.339
+    },
+    {
+     "w": "priorities",
+     "start": 6.385,
+     "end": 6.827
+    },
+    {
+     "w": "over",
+     "start": 6.861,
+     "end": 7.001
+    },
+    {
+     "w": "time.",
+     "start": 7.047,
+     "end": 7.465
+    },
+    {
+     "w": "Sam",
+     "start": 7.732,
+     "end": 7.918
+    },
+    {
+     "w": "Altman's",
+     "start": 7.976,
+     "end": 8.266
+    },
+    {
+     "w": "pitch?",
+     "start": 8.301,
+     "end": 8.638
+    },
+    {
+     "w": "A",
+     "start": 8.812,
+     "end": 8.882
+    },
+    {
+     "w": "helper",
+     "start": 8.963,
+     "end": 9.207
+    },
+    {
+     "w": "that",
+     "start": 9.253,
+     "end": 9.381
+    },
+    {
+     "w": "always",
+     "start": 9.427,
+     "end": 9.694
+    },
+    {
+     "w": "has",
+     "start": 9.729,
+     "end": 9.834
+    },
+    {
+     "w": "your",
+     "start": 9.868,
+     "end": 9.961
+    },
+    {
+     "w": "back.",
+     "start": 9.996,
+     "end": 10.542
+    }
+   ],
+   "estimated": false
+  },
+  {
+   "id": "reach",
+   "start": 19.909,
+   "end": 37.229,
+   "file": "/build/voice/reach.mp3",
+   "words": [
+    {
+     "w": "Dots",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "w": "plug",
+     "start": 0.337,
+     "end": 0.511
+    },
+    {
+     "w": "into",
+     "start": 0.546,
+     "end": 0.662
+    },
+    {
+     "w": "four",
+     "start": 0.72,
+     "end": 0.848
+    },
+    {
+     "w": "thousand",
+     "start": 0.882,
+     "end": 1.161
+    },
+    {
+     "w": "apps,",
+     "start": 1.231,
+     "end": 1.533
+    },
+    {
+     "w": "and",
+     "start": 1.556,
+     "end": 1.625
+    },
+    {
+     "w": "you",
+     "start": 1.66,
+     "end": 1.73
+    },
+    {
+     "w": "can",
+     "start": 1.765,
+     "end": 1.834
+    },
+    {
+     "w": "reach",
+     "start": 1.881,
+     "end": 2.02
+    },
+    {
+     "w": "yours",
+     "start": 2.055,
+     "end": 2.276
+    },
+    {
+     "w": "in",
+     "start": 2.322,
+     "end": 2.368
+    },
+    {
+     "w": "ChatGPT,",
+     "start": 2.415,
+     "end": 3.158
+    },
+    {
+     "w": "by",
+     "start": 3.367,
+     "end": 3.529
+    },
+    {
+     "w": "voice",
+     "start": 3.587,
+     "end": 3.785
+    },
+    {
+     "w": "call,",
+     "start": 3.808,
+     "end": 4.063
+    },
+    {
+     "w": "in",
+     "start": 4.087,
+     "end": 4.191
+    },
+    {
+     "w": "Slack",
+     "start": 4.261,
+     "end": 4.551
+    },
+    {
+     "w": "or",
+     "start": 4.621,
+     "end": 4.725
+    },
+    {
+     "w": "Teams,",
+     "start": 4.783,
+     "end": 5.19
+    },
+    {
+     "w": "with",
+     "start": 5.213,
+     "end": 5.341
+    },
+    {
+     "w": "texting",
+     "start": 5.375,
+     "end": 5.712
+    },
+    {
+     "w": "coming.",
+     "start": 5.759,
+     "end": 6.153
+    },
+    {
+     "w": "Under",
+     "start": 6.42,
+     "end": 6.594
+    },
+    {
+     "w": "the",
+     "start": 6.629,
+     "end": 6.699
+    },
+    {
+     "w": "hood:",
+     "start": 6.722,
+     "end": 7.036
+    },
+    {
+     "w": "GPT-6",
+     "start": 7.245,
+     "end": 7.953
+    },
+    {
+     "w": "Astra.",
+     "start": 8.092,
+     "end": 8.638
+    },
+    {
+     "w": "You",
+     "start": 8.87,
+     "end": 8.963
+    },
+    {
+     "w": "set",
+     "start": 9.009,
+     "end": 9.125
+    },
+    {
+     "w": "the",
+     "start": 9.149,
+     "end": 9.218
+    },
+    {
+     "w": "rules:",
+     "start": 9.253,
+     "end": 9.648
+    },
+    {
+     "w": "what",
+     "start": 9.787,
+     "end": 9.927
+    },
+    {
+     "w": "it",
+     "start": 9.961,
+     "end": 10.008
+    },
+    {
+     "w": "does",
+     "start": 10.043,
+     "end": 10.194
+    },
+    {
+     "w": "alone,",
+     "start": 10.229,
+     "end": 10.67
+    },
+    {
+     "w": "what",
+     "start": 10.798,
+     "end": 10.925
+    },
+    {
+     "w": "needs",
+     "start": 10.96,
+     "end": 11.1
+    },
+    {
+     "w": "approval,",
+     "start": 11.123,
+     "end": 11.668
+    },
+    {
+     "w": "and",
+     "start": 11.773,
+     "end": 11.889
+    },
+    {
+     "w": "what's",
+     "start": 11.935,
+     "end": 12.098
+    },
+    {
+     "w": "off",
+     "start": 12.133,
+     "end": 12.249
+    },
+    {
+     "w": "limits.",
+     "start": 12.295,
+     "end": 12.679
+    },
+    {
+     "w": "Passwords",
+     "start": 12.887,
+     "end": 13.317
+    },
+    {
+     "w": "stay",
+     "start": 13.34,
+     "end": 13.491
+    },
+    {
+     "w": "yours.",
+     "start": 13.549,
+     "end": 13.967
+    },
+    {
+     "w": "Early",
+     "start": 14.141,
+     "end": 14.362
+    },
+    {
+     "w": "testers",
+     "start": 14.397,
+     "end": 14.768
+    },
+    {
+     "w": "even",
+     "start": 14.826,
+     "end": 14.989
+    },
+    {
+     "w": "watched",
+     "start": 15.024,
+     "end": 15.244
+    },
+    {
+     "w": "dots",
+     "start": 15.302,
+     "end": 15.616
+    },
+    {
+     "w": "negotiate",
+     "start": 15.662,
+     "end": 16.057
+    },
+    {
+     "w": "vendor",
+     "start": 16.092,
+     "end": 16.289
+    },
+    {
+     "w": "contracts.",
+     "start": 16.347,
+     "end": 17.276
+    }
+   ],
+   "estimated": false
+  },
+  {
+   "id": "access",
+   "start": 37.349,
+   "end": 49.966,
+   "file": "/build/voice/access.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0,
+     "end": 0.116
+    },
+    {
+     "w": "catch?",
+     "start": 0.151,
+     "end": 0.534
+    },
+    {
+     "w": "Your",
+     "start": 0.708,
+     "end": 0.871
+    },
+    {
+     "w": "first",
+     "start": 0.929,
+     "end": 1.115
+    },
+    {
+     "w": "dot",
+     "start": 1.149,
+     "end": 1.347
+    },
+    {
+     "w": "comes",
+     "start": 1.382,
+     "end": 1.544
+    },
+    {
+     "w": "with",
+     "start": 1.579,
+     "end": 1.683
+    },
+    {
+     "w": "Pro",
+     "start": 1.73,
+     "end": 1.927
+    },
+    {
+     "w": "and",
+     "start": 1.997,
+     "end": 2.078
+    },
+    {
+     "w": "Business",
+     "start": 2.113,
+     "end": 2.357
+    },
+    {
+     "w": "Premium.",
+     "start": 2.392,
+     "end": 2.902
+    },
+    {
+     "w": "Free",
+     "start": 3.077,
+     "end": 3.286
+    },
+    {
+     "w": "and",
+     "start": 3.309,
+     "end": 3.379
+    },
+    {
+     "w": "Plus",
+     "start": 3.425,
+     "end": 3.622
+    },
+    {
+     "w": "users?",
+     "start": 3.68,
+     "end": 4.133
+    },
+    {
+     "w": "Left",
+     "start": 4.238,
+     "end": 4.447
+    },
+    {
+     "w": "out,",
+     "start": 4.493,
+     "end": 4.702
+    },
+    {
+     "w": "for",
+     "start": 4.725,
+     "end": 4.807
+    },
+    {
+     "w": "now.",
+     "start": 4.853,
+     "end": 5.19
+    },
+    {
+     "w": "And",
+     "start": 5.364,
+     "end": 5.48
+    },
+    {
+     "w": "yes,",
+     "start": 5.526,
+     "end": 5.712
+    },
+    {
+     "w": "they're",
+     "start": 5.735,
+     "end": 5.898
+    },
+    {
+     "w": "cute:",
+     "start": 5.921,
+     "end": 6.327
+    },
+    {
+     "w": "glasses,",
+     "start": 6.455,
+     "end": 6.989
+    },
+    {
+     "w": "hats,",
+     "start": 7.082,
+     "end": 7.523
+    },
+    {
+     "w": "bow",
+     "start": 7.663,
+     "end": 7.837
+    },
+    {
+     "w": "ties.",
+     "start": 7.906,
+     "end": 8.382
+    },
+    {
+     "w": "The",
+     "start": 8.522,
+     "end": 8.626
+    },
+    {
+     "w": "Register",
+     "start": 8.696,
+     "end": 9.021
+    },
+    {
+     "w": "side-eyed",
+     "start": 9.079,
+     "end": 9.439
+    },
+    {
+     "w": "that,",
+     "start": 9.462,
+     "end": 9.659
+    },
+    {
+     "w": "from",
+     "start": 9.683,
+     "end": 9.787
+    },
+    {
+     "w": "a",
+     "start": 9.834,
+     "end": 9.857
+    },
+    {
+     "w": "company",
+     "start": 9.904,
+     "end": 10.159
+    },
+    {
+     "w": "that",
+     "start": 10.206,
+     "end": 10.298
+    },
+    {
+     "w": "also",
+     "start": 10.333,
+     "end": 10.589
+    },
+    {
+     "w": "warns",
+     "start": 10.658,
+     "end": 10.891
+    },
+    {
+     "w": "about",
+     "start": 10.914,
+     "end": 11.088
+    },
+    {
+     "w": "existential",
+     "start": 11.146,
+     "end": 11.634
+    },
+    {
+     "w": "AI",
+     "start": 11.692,
+     "end": 11.912
+    },
+    {
+     "w": "risk.",
+     "start": 11.982,
+     "end": 12.586
+    }
+   ],
+   "estimated": false
+  },
+  {
+   "id": "sol",
+   "start": 50.086,
+   "end": 61.919,
+   "file": "/build/voice/sol.mp3",
+   "words": [
+    {
+     "w": "Next,",
+     "start": 0,
+     "end": 0.464
+    },
+    {
+     "w": "GPT-6.1",
+     "start": 0.557,
+     "end": 1.788
+    },
+    {
+     "w": "Sol.",
+     "start": 1.927,
+     "end": 2.252
+    },
+    {
+     "w": "Near-Astra",
+     "start": 2.357,
+     "end": 2.856
+    },
+    {
+     "w": "intelligence,",
+     "start": 2.902,
+     "end": 3.518
+    },
+    {
+     "w": "at",
+     "start": 3.646,
+     "end": 3.762
+    },
+    {
+     "w": "one-fifth",
+     "start": 3.82,
+     "end": 4.272
+    },
+    {
+     "w": "the",
+     "start": 4.365,
+     "end": 4.447
+    },
+    {
+     "w": "price.",
+     "start": 4.481,
+     "end": 4.946
+    },
+    {
+     "w": "Two",
+     "start": 5.085,
+     "end": 5.236
+    },
+    {
+     "w": "dollars",
+     "start": 5.283,
+     "end": 5.561
+    },
+    {
+     "w": "per",
+     "start": 5.608,
+     "end": 5.712
+    },
+    {
+     "w": "million",
+     "start": 5.77,
+     "end": 6.06
+    },
+    {
+     "w": "input",
+     "start": 6.142,
+     "end": 6.42
+    },
+    {
+     "w": "tokens.",
+     "start": 6.455,
+     "end": 6.931
+    },
+    {
+     "w": "Ten",
+     "start": 7.07,
+     "end": 7.256
+    },
+    {
+     "w": "dollars",
+     "start": 7.291,
+     "end": 7.546
+    },
+    {
+     "w": "output.",
+     "start": 7.581,
+     "end": 8.034
+    },
+    {
+     "w": "Cached",
+     "start": 8.208,
+     "end": 8.545
+    },
+    {
+     "w": "input?",
+     "start": 8.591,
+     "end": 8.998
+    },
+    {
+     "w": "Ten",
+     "start": 9.091,
+     "end": 9.288
+    },
+    {
+     "w": "cents.",
+     "start": 9.358,
+     "end": 9.718
+    },
+    {
+     "w": "That's",
+     "start": 9.845,
+     "end": 10.089
+    },
+    {
+     "w": "ninety-five",
+     "start": 10.228,
+     "end": 10.797
+    },
+    {
+     "w": "percent",
+     "start": 10.832,
+     "end": 11.122
+    },
+    {
+     "w": "off.",
+     "start": 11.18,
+     "end": 11.796
+    }
+   ],
+   "estimated": false
+  },
+  {
+   "id": "solBench",
+   "start": 62.039,
+   "end": 74.604,
+   "file": "/build/voice/solBench.mp3",
+   "words": [
+    {
+     "w": "It",
+     "start": 0,
+     "end": 0.151
+    },
+    {
+     "w": "ties",
+     "start": 0.174,
+     "end": 0.418
+    },
+    {
+     "w": "Astra",
+     "start": 0.488,
+     "end": 0.859
+    },
+    {
+     "w": "on",
+     "start": 0.917,
+     "end": 1.033
+    },
+    {
+     "w": "DeepSWE,",
+     "start": 1.091,
+     "end": 1.974
+    },
+    {
+     "w": "beats",
+     "start": 2.148,
+     "end": 2.368
+    },
+    {
+     "w": "Claude",
+     "start": 2.415,
+     "end": 2.682
+    },
+    {
+     "w": "Opus",
+     "start": 2.717,
+     "end": 3.007
+    },
+    {
+     "w": "5.5",
+     "start": 3.077,
+     "end": 3.785
+    },
+    {
+     "w": "on",
+     "start": 3.855,
+     "end": 3.913
+    },
+    {
+     "w": "AutomationBench",
+     "start": 3.959,
+     "end": 4.656
+    },
+    {
+     "w": "at",
+     "start": 4.69,
+     "end": 4.737
+    },
+    {
+     "w": "about",
+     "start": 4.76,
+     "end": 4.899
+    },
+    {
+     "w": "a",
+     "start": 4.923,
+     "end": 4.946
+    },
+    {
+     "w": "third",
+     "start": 4.969,
+     "end": 5.108
+    },
+    {
+     "w": "of",
+     "start": 5.132,
+     "end": 5.178
+    },
+    {
+     "w": "the",
+     "start": 5.213,
+     "end": 5.283
+    },
+    {
+     "w": "cost,",
+     "start": 5.317,
+     "end": 5.77
+    },
+    {
+     "w": "and",
+     "start": 5.909,
+     "end": 6.026
+    },
+    {
+     "w": "cuts",
+     "start": 6.084,
+     "end": 6.293
+    },
+    {
+     "w": "factual",
+     "start": 6.374,
+     "end": 6.815
+    },
+    {
+     "w": "errors",
+     "start": 6.873,
+     "end": 7.152
+    },
+    {
+     "w": "by",
+     "start": 7.21,
+     "end": 7.314
+    },
+    {
+     "w": "thirty-two",
+     "start": 7.372,
+     "end": 7.686
+    },
+    {
+     "w": "percent.",
+     "start": 7.732,
+     "end": 8.29
+    },
+    {
+     "w": "It's",
+     "start": 8.615,
+     "end": 8.777
+    },
+    {
+     "w": "live",
+     "start": 8.835,
+     "end": 9.079
+    },
+    {
+     "w": "now",
+     "start": 9.114,
+     "end": 9.288
+    },
+    {
+     "w": "in",
+     "start": 9.381,
+     "end": 9.462
+    },
+    {
+     "w": "the",
+     "start": 9.497,
+     "end": 9.567
+    },
+    {
+     "w": "API,",
+     "start": 9.636,
+     "end": 10.217
+    },
+    {
+     "w": "ChatGPT",
+     "start": 10.321,
+     "end": 10.995
+    },
+    {
+     "w": "Work,",
+     "start": 11.099,
+     "end": 11.459
+    },
+    {
+     "w": "and",
+     "start": 11.517,
+     "end": 11.645
+    },
+    {
+     "w": "Codex.",
+     "start": 11.714,
+     "end": 12.539
+    }
+   ],
+   "estimated": false
+  },
+  {
+   "id": "ultra",
+   "start": 74.724,
+   "end": 95.335,
+   "file": "/build/voice/ultra.mp3",
+   "words": [
+    {
+     "w": "Need",
+     "start": 0,
+     "end": 0.209
+    },
+    {
+     "w": "speed?",
+     "start": 0.244,
+     "end": 0.65
+    },
+    {
+     "w": "Ultrafast.",
+     "start": 0.789,
+     "end": 1.567
+    },
+    {
+     "w": "Up",
+     "start": 1.776,
+     "end": 1.904
+    },
+    {
+     "w": "to",
+     "start": 1.939,
+     "end": 1.985
+    },
+    {
+     "w": "eight",
+     "start": 2.09,
+     "end": 2.287
+    },
+    {
+     "w": "times",
+     "start": 2.31,
+     "end": 2.566
+    },
+    {
+     "w": "faster",
+     "start": 2.612,
+     "end": 2.961
+    },
+    {
+     "w": "in",
+     "start": 3.03,
+     "end": 3.088
+    },
+    {
+     "w": "Codex.",
+     "start": 3.158,
+     "end": 3.68
+    },
+    {
+     "w": "Three",
+     "start": 3.889,
+     "end": 4.11
+    },
+    {
+     "w": "hundred",
+     "start": 4.145,
+     "end": 4.365
+    },
+    {
+     "w": "tokens",
+     "start": 4.389,
+     "end": 4.76
+    },
+    {
+     "w": "a",
+     "start": 4.807,
+     "end": 4.841
+    },
+    {
+     "w": "second,",
+     "start": 4.923,
+     "end": 5.364
+    },
+    {
+     "w": "reportedly",
+     "start": 5.445,
+     "end": 5.968
+    },
+    {
+     "w": "on",
+     "start": 6.037,
+     "end": 6.223
+    },
+    {
+     "w": "Cerebras",
+     "start": 6.316,
+     "end": 6.803
+    },
+    {
+     "w": "chips.",
+     "start": 6.85,
+     "end": 7.303
+    },
+    {
+     "w": "It",
+     "start": 7.43,
+     "end": 7.535
+    },
+    {
+     "w": "isn't",
+     "start": 7.57,
+     "end": 7.721
+    },
+    {
+     "w": "cheap:",
+     "start": 7.744,
+     "end": 8.092
+    },
+    {
+     "w": "Astra",
+     "start": 8.324,
+     "end": 8.661
+    },
+    {
+     "w": "Ultrafast",
+     "start": 8.707,
+     "end": 9.311
+    },
+    {
+     "w": "costs",
+     "start": 9.369,
+     "end": 9.694
+    },
+    {
+     "w": "sixty",
+     "start": 9.799,
+     "end": 10.101
+    },
+    {
+     "w": "dollars",
+     "start": 10.136,
+     "end": 10.403
+    },
+    {
+     "w": "in,",
+     "start": 10.472,
+     "end": 10.797
+    },
+    {
+     "w": "and",
+     "start": 10.925,
+     "end": 11.088
+    },
+    {
+     "w": "three",
+     "start": 11.134,
+     "end": 11.331
+    },
+    {
+     "w": "hundred",
+     "start": 11.366,
+     "end": 11.598
+    },
+    {
+     "w": "out,",
+     "start": 11.656,
+     "end": 12.051
+    },
+    {
+     "w": "per",
+     "start": 12.144,
+     "end": 12.283
+    },
+    {
+     "w": "million",
+     "start": 12.341,
+     "end": 12.666
+    },
+    {
+     "w": "tokens.",
+     "start": 12.724,
+     "end": 13.293
+    },
+    {
+     "w": "And",
+     "start": 13.56,
+     "end": 13.688
+    },
+    {
+     "w": "it's",
+     "start": 13.734,
+     "end": 13.827
+    },
+    {
+     "w": "bundled",
+     "start": 13.862,
+     "end": 14.187
+    },
+    {
+     "w": "into",
+     "start": 14.222,
+     "end": 14.35
+    },
+    {
+     "w": "a",
+     "start": 14.431,
+     "end": 14.454
+    },
+    {
+     "w": "new",
+     "start": 14.524,
+     "end": 14.686
+    },
+    {
+     "w": "top",
+     "start": 14.756,
+     "end": 14.965
+    },
+    {
+     "w": "plan:",
+     "start": 15.011,
+     "end": 15.511
+    },
+    {
+     "w": "Pro",
+     "start": 15.778,
+     "end": 16.045
+    },
+    {
+     "w": "500.",
+     "start": 16.172,
+     "end": 16.834
+    },
+    {
+     "w": "Five",
+     "start": 17.043,
+     "end": 17.31
+    },
+    {
+     "w": "hundred",
+     "start": 17.333,
+     "end": 17.542
+    },
+    {
+     "w": "dollars",
+     "start": 17.566,
+     "end": 17.821
+    },
+    {
+     "w": "a",
+     "start": 17.844,
+     "end": 17.867
+    },
+    {
+     "w": "month,",
+     "start": 17.902,
+     "end": 18.181
+    },
+    {
+     "w": "with",
+     "start": 18.32,
+     "end": 18.471
+    },
+    {
+     "w": "twenty-five",
+     "start": 18.518,
+     "end": 19.11
+    },
+    {
+     "w": "times",
+     "start": 19.133,
+     "end": 19.412
+    },
+    {
+     "w": "the",
+     "start": 19.458,
+     "end": 19.528
+    },
+    {
+     "w": "Plus",
+     "start": 19.562,
+     "end": 19.795
+    },
+    {
+     "w": "allowance.",
+     "start": 19.841,
+     "end": 20.573
+    }
+   ],
+   "estimated": false
+  },
+  {
+   "id": "agents",
+   "start": 95.455,
+   "end": 116.718,
+   "file": "/build/voice/agents.mp3",
+   "words": [
+    {
+     "w": "For",
+     "start": 0,
+     "end": 0.139
+    },
+    {
+     "w": "developers,",
+     "start": 0.174,
+     "end": 0.673
+    },
+    {
+     "w": "the",
+     "start": 0.697,
+     "end": 0.766
+    },
+    {
+     "w": "Agents",
+     "start": 0.836,
+     "end": 1.126
+    },
+    {
+     "w": "API",
+     "start": 1.161,
+     "end": 1.591
+    },
+    {
+     "w": "adds",
+     "start": 1.683,
+     "end": 1.95
+    },
+    {
+     "w": "computer",
+     "start": 1.997,
+     "end": 2.403
+    },
+    {
+     "w": "use:",
+     "start": 2.473,
+     "end": 2.775
+    },
+    {
+     "w": "clicking,",
+     "start": 3.007,
+     "end": 3.402
+    },
+    {
+     "w": "typing",
+     "start": 3.425,
+     "end": 3.82
+    },
+    {
+     "w": "and",
+     "start": 3.889,
+     "end": 3.971
+    },
+    {
+     "w": "navigating",
+     "start": 4.04,
+     "end": 4.493
+    },
+    {
+     "w": "software,",
+     "start": 4.54,
+     "end": 5.074
+    },
+    {
+     "w": "plus",
+     "start": 5.201,
+     "end": 5.48
+    },
+    {
+     "w": "multi-agent",
+     "start": 5.55,
+     "end": 6.165
+    },
+    {
+     "w": "support,",
+     "start": 6.211,
+     "end": 6.699
+    },
+    {
+     "w": "with",
+     "start": 6.838,
+     "end": 6.978
+    },
+    {
+     "w": "OpenAI",
+     "start": 7.036,
+     "end": 7.605
+    },
+    {
+     "w": "hosting",
+     "start": 7.674,
+     "end": 8.022
+    },
+    {
+     "w": "the",
+     "start": 8.069,
+     "end": 8.139
+    },
+    {
+     "w": "infrastructure.",
+     "start": 8.197,
+     "end": 8.905
+    },
+    {
+     "w": "Agents",
+     "start": 9.23,
+     "end": 9.578
+    },
+    {
+     "w": "can",
+     "start": 9.613,
+     "end": 9.694
+    },
+    {
+     "w": "also",
+     "start": 9.729,
+     "end": 9.985
+    },
+    {
+     "w": "run",
+     "start": 10.066,
+     "end": 10.275
+    },
+    {
+     "w": "entirely",
+     "start": 10.344,
+     "end": 10.913
+    },
+    {
+     "w": "inside",
+     "start": 11.006,
+     "end": 11.517
+    },
+    {
+     "w": "AWS,",
+     "start": 11.563,
+     "end": 12.283
+    },
+    {
+     "w": "through",
+     "start": 12.306,
+     "end": 12.504
+    },
+    {
+     "w": "Bedrock.",
+     "start": 12.527,
+     "end": 12.945
+    },
+    {
+     "w": "And",
+     "start": 13.154,
+     "end": 13.316
+    },
+    {
+     "w": "the",
+     "start": 13.351,
+     "end": 13.421
+    },
+    {
+     "w": "new",
+     "start": 13.444,
+     "end": 13.525
+    },
+    {
+     "w": "Decisions",
+     "start": 13.56,
+     "end": 13.885
+    },
+    {
+     "w": "API",
+     "start": 13.92,
+     "end": 14.234
+    },
+    {
+     "w": "routes",
+     "start": 14.315,
+     "end": 14.547
+    },
+    {
+     "w": "quick,",
+     "start": 14.605,
+     "end": 14.895
+    },
+    {
+     "w": "finite",
+     "start": 14.942,
+     "end": 15.313
+    },
+    {
+     "w": "choices,",
+     "start": 15.337,
+     "end": 15.731
+    },
+    {
+     "w": "like",
+     "start": 15.755,
+     "end": 15.917
+    },
+    {
+     "w": "approve",
+     "start": 15.94,
+     "end": 16.277
+    },
+    {
+     "w": "or",
+     "start": 16.323,
+     "end": 16.428
+    },
+    {
+     "w": "reject,",
+     "start": 16.498,
+     "end": 16.904
+    },
+    {
+     "w": "to",
+     "start": 17.078,
+     "end": 17.159
+    },
+    {
+     "w": "the",
+     "start": 17.217,
+     "end": 17.287
+    },
+    {
+     "w": "tiny",
+     "start": 17.322,
+     "end": 17.601
+    },
+    {
+     "w": "GPT-6",
+     "start": 17.659,
+     "end": 18.239
+    },
+    {
+     "w": "Luna,",
+     "start": 18.32,
+     "end": 18.727
+    },
+    {
+     "w": "at",
+     "start": 18.901,
+     "end": 19.04
+    },
+    {
+     "w": "ten",
+     "start": 19.075,
+     "end": 19.284
+    },
+    {
+     "w": "cents",
+     "start": 19.354,
+     "end": 19.574
+    },
+    {
+     "w": "per",
+     "start": 19.609,
+     "end": 19.725
+    },
+    {
+     "w": "million",
+     "start": 19.783,
+     "end": 20.097
+    },
+    {
+     "w": "input",
+     "start": 20.166,
+     "end": 20.433
+    },
+    {
+     "w": "tokens.",
+     "start": 20.468,
+     "end": 21.223
+    }
+   ],
+   "estimated": false
+  },
+  {
+   "id": "codex",
+   "start": 116.838,
+   "end": 138.389,
+   "file": "/build/voice/codex.mp3",
+   "words": [
+    {
+     "w": "Codex",
+     "start": 0,
+     "end": 0.441
+    },
+    {
+     "w": "gets",
+     "start": 0.488,
+     "end": 0.65
+    },
+    {
+     "w": "persistent",
+     "start": 0.697,
+     "end": 1.138
+    },
+    {
+     "w": "cloud",
+     "start": 1.184,
+     "end": 1.416
+    },
+    {
+     "w": "runtimes",
+     "start": 1.451,
+     "end": 1.892
+    },
+    {
+     "w": "you",
+     "start": 1.927,
+     "end": 1.997
+    },
+    {
+     "w": "can",
+     "start": 2.032,
+     "end": 2.101
+    },
+    {
+     "w": "drive",
+     "start": 2.125,
+     "end": 2.334
+    },
+    {
+     "w": "from",
+     "start": 2.357,
+     "end": 2.45
+    },
+    {
+     "w": "your",
+     "start": 2.485,
+     "end": 2.577
+    },
+    {
+     "w": "phone,",
+     "start": 2.601,
+     "end": 3.007
+    },
+    {
+     "w": "voice",
+     "start": 3.181,
+     "end": 3.437
+    },
+    {
+     "w": "steering,",
+     "start": 3.46,
+     "end": 3.936
+    },
+    {
+     "w": "code",
+     "start": 4.063,
+     "end": 4.296
+    },
+    {
+     "w": "review",
+     "start": 4.331,
+     "end": 4.54
+    },
+    {
+     "w": "for",
+     "start": 4.586,
+     "end": 4.656
+    },
+    {
+     "w": "pull",
+     "start": 4.69,
+     "end": 4.841
+    },
+    {
+     "w": "requests,",
+     "start": 4.888,
+     "end": 5.433
+    },
+    {
+     "w": "and",
+     "start": 5.573,
+     "end": 5.805
+    },
+    {
+     "w": "an",
+     "start": 5.875,
+     "end": 5.933
+    },
+    {
+     "w": "on-demand",
+     "start": 6.014,
+     "end": 6.455
+    },
+    {
+     "w": "security",
+     "start": 6.49,
+     "end": 6.815
+    },
+    {
+     "w": "scanner.",
+     "start": 6.85,
+     "end": 7.303
+    },
+    {
+     "w": "And",
+     "start": 7.512,
+     "end": 7.651
+    },
+    {
+     "w": "its",
+     "start": 7.709,
+     "end": 7.779
+    },
+    {
+     "w": "harness",
+     "start": 7.802,
+     "end": 8.092
+    },
+    {
+     "w": "is",
+     "start": 8.127,
+     "end": 8.208
+    },
+    {
+     "w": "now",
+     "start": 8.266,
+     "end": 8.452
+    },
+    {
+     "w": "open",
+     "start": 8.58,
+     "end": 8.835
+    },
+    {
+     "w": "source.",
+     "start": 8.928,
+     "end": 9.427
+    },
+    {
+     "w": "Sign",
+     "start": 9.694,
+     "end": 9.927
+    },
+    {
+     "w": "in",
+     "start": 9.973,
+     "end": 10.019
+    },
+    {
+     "w": "with",
+     "start": 10.066,
+     "end": 10.17
+    },
+    {
+     "w": "ChatGPT",
+     "start": 10.205,
+     "end": 10.832
+    },
+    {
+     "w": "lets",
+     "start": 11.099,
+     "end": 11.262
+    },
+    {
+     "w": "people",
+     "start": 11.285,
+     "end": 11.447
+    },
+    {
+     "w": "spend",
+     "start": 11.471,
+     "end": 11.645
+    },
+    {
+     "w": "their",
+     "start": 11.668,
+     "end": 11.784
+    },
+    {
+     "w": "own",
+     "start": 11.831,
+     "end": 11.982
+    },
+    {
+     "w": "plan",
+     "start": 12.04,
+     "end": 12.341
+    },
+    {
+     "w": "inside",
+     "start": 12.434,
+     "end": 12.841
+    },
+    {
+     "w": "sixteen",
+     "start": 12.875,
+     "end": 13.247
+    },
+    {
+     "w": "partner",
+     "start": 13.305,
+     "end": 13.572
+    },
+    {
+     "w": "apps,",
+     "start": 13.63,
+     "end": 14.025
+    },
+    {
+     "w": "like",
+     "start": 14.234,
+     "end": 14.385
+    },
+    {
+     "w": "Notion,",
+     "start": 14.431,
+     "end": 14.872
+    },
+    {
+     "w": "Vercel",
+     "start": 14.954,
+     "end": 15.302
+    },
+    {
+     "w": "and",
+     "start": 15.372,
+     "end": 15.453
+    },
+    {
+     "w": "Devin,",
+     "start": 15.511,
+     "end": 15.952
+    },
+    {
+     "w": "so",
+     "start": 16.126,
+     "end": 16.242
+    },
+    {
+     "w": "developers",
+     "start": 16.289,
+     "end": 16.684
+    },
+    {
+     "w": "aren't",
+     "start": 16.73,
+     "end": 16.893
+    },
+    {
+     "w": "footing",
+     "start": 16.916,
+     "end": 17.125
+    },
+    {
+     "w": "the",
+     "start": 17.171,
+     "end": 17.241
+    },
+    {
+     "w": "token",
+     "start": 17.276,
+     "end": 17.554
+    },
+    {
+     "w": "bill.",
+     "start": 17.612,
+     "end": 17.995
+    },
+    {
+     "w": "And",
+     "start": 18.17,
+     "end": 18.309
+    },
+    {
+     "w": "plugins",
+     "start": 18.379,
+     "end": 18.727
+    },
+    {
+     "w": "get",
+     "start": 18.762,
+     "end": 18.866
+    },
+    {
+     "w": "sidebars,",
+     "start": 18.913,
+     "end": 19.505
+    },
+    {
+     "w": "panels",
+     "start": 19.551,
+     "end": 19.981
+    },
+    {
+     "w": "and",
+     "start": 20.016,
+     "end": 20.097
+    },
+    {
+     "w": "MCP",
+     "start": 20.19,
+     "end": 20.631
+    },
+    {
+     "w": "events.",
+     "start": 20.724,
+     "end": 21.502
+    }
+   ],
+   "estimated": false
+  },
+  {
+   "id": "collab",
+   "start": 138.509,
+   "end": 152.955,
+   "file": "/build/voice/collab.mp3",
+   "words": [
+    {
+     "w": "Then,",
+     "start": 0,
+     "end": 0.372
+    },
+    {
+     "w": "teamwork.",
+     "start": 0.43,
+     "end": 0.987
+    },
+    {
+     "w": "ChatGPT",
+     "start": 1.161,
+     "end": 1.73
+    },
+    {
+     "w": "Space:",
+     "start": 1.834,
+     "end": 2.299
+    },
+    {
+     "w": "a",
+     "start": 2.508,
+     "end": 2.566
+    },
+    {
+     "w": "shared",
+     "start": 2.624,
+     "end": 2.844
+    },
+    {
+     "w": "hub",
+     "start": 2.868,
+     "end": 3.019
+    },
+    {
+     "w": "where",
+     "start": 3.053,
+     "end": 3.193
+    },
+    {
+     "w": "teammates,",
+     "start": 3.239,
+     "end": 3.785
+    },
+    {
+     "w": "ChatGPT",
+     "start": 3.831,
+     "end": 4.354
+    },
+    {
+     "w": "and",
+     "start": 4.481,
+     "end": 4.551
+    },
+    {
+     "w": "dots",
+     "start": 4.609,
+     "end": 4.911
+    },
+    {
+     "w": "work",
+     "start": 4.969,
+     "end": 5.12
+    },
+    {
+     "w": "together.",
+     "start": 5.155,
+     "end": 5.619
+    },
+    {
+     "w": "Pages,",
+     "start": 5.828,
+     "end": 6.339
+    },
+    {
+     "w": "for",
+     "start": 6.362,
+     "end": 6.455
+    },
+    {
+     "w": "documents",
+     "start": 6.502,
+     "end": 6.896
+    },
+    {
+     "w": "co-written",
+     "start": 6.943,
+     "end": 7.291
+    },
+    {
+     "w": "by",
+     "start": 7.326,
+     "end": 7.442
+    },
+    {
+     "w": "humans",
+     "start": 7.488,
+     "end": 7.86
+    },
+    {
+     "w": "and",
+     "start": 7.906,
+     "end": 8.011
+    },
+    {
+     "w": "agents.",
+     "start": 8.092,
+     "end": 8.638
+    },
+    {
+     "w": "Collaborative",
+     "start": 8.87,
+     "end": 9.323
+    },
+    {
+     "w": "Slides,",
+     "start": 9.346,
+     "end": 9.776
+    },
+    {
+     "w": "arriving",
+     "start": 9.799,
+     "end": 10.159
+    },
+    {
+     "w": "in",
+     "start": 10.194,
+     "end": 10.24
+    },
+    {
+     "w": "the",
+     "start": 10.263,
+     "end": 10.333
+    },
+    {
+     "w": "coming",
+     "start": 10.356,
+     "end": 10.554
+    },
+    {
+     "w": "weeks.",
+     "start": 10.589,
+     "end": 10.995
+    },
+    {
+     "w": "And",
+     "start": 11.169,
+     "end": 11.343
+    },
+    {
+     "w": "at-mention",
+     "start": 11.424,
+     "end": 11.958
+    },
+    {
+     "w": "ChatGPT,",
+     "start": 12.017,
+     "end": 12.841
+    },
+    {
+     "w": "right",
+     "start": 13.015,
+     "end": 13.189
+    },
+    {
+     "w": "in",
+     "start": 13.236,
+     "end": 13.294
+    },
+    {
+     "w": "Slack",
+     "start": 13.34,
+     "end": 13.561
+    },
+    {
+     "w": "and",
+     "start": 13.596,
+     "end": 13.665
+    },
+    {
+     "w": "Teams.",
+     "start": 13.688,
+     "end": 14.397
+    }
+   ],
+   "estimated": false
+  },
+  {
+   "id": "enterprise",
+   "start": 153.075,
+   "end": 170.29,
+   "file": "/build/voice/enterprise.mp3",
+   "words": [
+    {
+     "w": "For",
+     "start": 0,
+     "end": 0.163
+    },
+    {
+     "w": "enterprise:",
+     "start": 0.221,
+     "end": 0.801
+    },
+    {
+     "w": "Private",
+     "start": 0.929,
+     "end": 1.312
+    },
+    {
+     "w": "Intelligence.",
+     "start": 1.347,
+     "end": 1.997
+    },
+    {
+     "w": "Zero",
+     "start": 2.206,
+     "end": 2.543
+    },
+    {
+     "w": "data",
+     "start": 2.601,
+     "end": 2.798
+    },
+    {
+     "w": "retention,",
+     "start": 2.833,
+     "end": 3.344
+    },
+    {
+     "w": "automated",
+     "start": 3.518,
+     "end": 3.971
+    },
+    {
+     "w": "safety",
+     "start": 4.005,
+     "end": 4.284
+    },
+    {
+     "w": "review",
+     "start": 4.354,
+     "end": 4.621
+    },
+    {
+     "w": "with",
+     "start": 4.714,
+     "end": 4.841
+    },
+    {
+     "w": "no",
+     "start": 4.911,
+     "end": 5.074
+    },
+    {
+     "w": "OpenAI",
+     "start": 5.166,
+     "end": 5.619
+    },
+    {
+     "w": "staff",
+     "start": 5.677,
+     "end": 5.921
+    },
+    {
+     "w": "access,",
+     "start": 5.979,
+     "end": 6.432
+    },
+    {
+     "w": "and",
+     "start": 6.571,
+     "end": 6.711
+    },
+    {
+     "w": "private",
+     "start": 6.78,
+     "end": 7.094
+    },
+    {
+     "w": "inference",
+     "start": 7.117,
+     "end": 7.454
+    },
+    {
+     "w": "on",
+     "start": 7.488,
+     "end": 7.581
+    },
+    {
+     "w": "confidential",
+     "start": 7.674,
+     "end": 8.173
+    },
+    {
+     "w": "computing,",
+     "start": 8.231,
+     "end": 8.742
+    },
+    {
+     "w": "this",
+     "start": 8.882,
+     "end": 9.056
+    },
+    {
+     "w": "fall.",
+     "start": 9.114,
+     "end": 9.509
+    },
+    {
+     "w": "Plus,",
+     "start": 9.776,
+     "end": 10.112
+    },
+    {
+     "w": "the",
+     "start": 10.147,
+     "end": 10.217
+    },
+    {
+     "w": "OpenAI",
+     "start": 10.286,
+     "end": 10.716
+    },
+    {
+     "w": "Marketplace:",
+     "start": 10.798,
+     "end": 11.39
+    },
+    {
+     "w": "spend",
+     "start": 11.622,
+     "end": 11.924
+    },
+    {
+     "w": "existing",
+     "start": 11.982,
+     "end": 12.423
+    },
+    {
+     "w": "commitments",
+     "start": 12.481,
+     "end": 12.876
+    },
+    {
+     "w": "across",
+     "start": 12.911,
+     "end": 13.189
+    },
+    {
+     "w": "thirty-two",
+     "start": 13.247,
+     "end": 13.7
+    },
+    {
+     "w": "partners,",
+     "start": 13.77,
+     "end": 14.315
+    },
+    {
+     "w": "from",
+     "start": 14.455,
+     "end": 14.582
+    },
+    {
+     "w": "Adobe",
+     "start": 14.629,
+     "end": 14.989
+    },
+    {
+     "w": "and",
+     "start": 15.035,
+     "end": 15.117
+    },
+    {
+     "w": "Figma",
+     "start": 15.175,
+     "end": 15.488
+    },
+    {
+     "w": "to",
+     "start": 15.534,
+     "end": 15.593
+    },
+    {
+     "w": "Salesforce",
+     "start": 15.662,
+     "end": 16.208
+    },
+    {
+     "w": "and",
+     "start": 16.243,
+     "end": 16.336
+    },
+    {
+     "w": "CrowdStrike.",
+     "start": 16.394,
+     "end": 17.183
+    }
+   ],
+   "estimated": false
+  },
+  {
+   "id": "backdrop",
+   "start": 170.41,
+   "end": 187.024,
+   "file": "/build/voice/backdrop.mp3",
+   "words": [
+    {
+     "w": "But",
+     "start": 0,
+     "end": 0.174
+    },
+    {
+     "w": "look",
+     "start": 0.221,
+     "end": 0.36
+    },
+    {
+     "w": "at",
+     "start": 0.395,
+     "end": 0.441
+    },
+    {
+     "w": "the",
+     "start": 0.464,
+     "end": 0.534
+    },
+    {
+     "w": "backdrop.",
+     "start": 0.569,
+     "end": 1.126
+    },
+    {
+     "w": "One",
+     "start": 1.358,
+     "end": 1.567
+    },
+    {
+     "w": "day",
+     "start": 1.591,
+     "end": 1.73
+    },
+    {
+     "w": "earlier,",
+     "start": 1.8,
+     "end": 2.299
+    },
+    {
+     "w": "OpenAI",
+     "start": 2.357,
+     "end": 2.856
+    },
+    {
+     "w": "reportedly",
+     "start": 2.937,
+     "end": 3.39
+    },
+    {
+     "w": "scrapped",
+     "start": 3.437,
+     "end": 3.762
+    },
+    {
+     "w": "GPT-6.1",
+     "start": 3.843,
+     "end": 4.923
+    },
+    {
+     "w": "Astra",
+     "start": 5.05,
+     "end": 5.526
+    },
+    {
+     "w": "over",
+     "start": 5.793,
+     "end": 6.002
+    },
+    {
+     "w": "safety",
+     "start": 6.049,
+     "end": 6.304
+    },
+    {
+     "w": "concerns.",
+     "start": 6.339,
+     "end": 6.943
+    },
+    {
+     "w": "Weeks",
+     "start": 7.175,
+     "end": 7.419
+    },
+    {
+     "w": "before,",
+     "start": 7.465,
+     "end": 7.883
+    },
+    {
+     "w": "it",
+     "start": 7.941,
+     "end": 8.046
+    },
+    {
+     "w": "paused",
+     "start": 8.104,
+     "end": 8.417
+    },
+    {
+     "w": "training",
+     "start": 8.475,
+     "end": 8.835
+    },
+    {
+     "w": "of",
+     "start": 8.905,
+     "end": 8.975
+    },
+    {
+     "w": "its",
+     "start": 9.021,
+     "end": 9.114
+    },
+    {
+     "w": "most",
+     "start": 9.16,
+     "end": 9.358
+    },
+    {
+     "w": "capable",
+     "start": 9.404,
+     "end": 9.752
+    },
+    {
+     "w": "models",
+     "start": 9.787,
+     "end": 10.101
+    },
+    {
+     "w": "after",
+     "start": 10.147,
+     "end": 10.356
+    },
+    {
+     "w": "agent",
+     "start": 10.426,
+     "end": 10.728
+    },
+    {
+     "w": "incidents:",
+     "start": 10.774,
+     "end": 11.378
+    },
+    {
+     "w": "agents",
+     "start": 11.645,
+     "end": 11.993
+    },
+    {
+     "w": "breaching",
+     "start": 12.052,
+     "end": 12.342
+    },
+    {
+     "w": "government",
+     "start": 12.4,
+     "end": 12.69
+    },
+    {
+     "w": "sites,",
+     "start": 12.725,
+     "end": 13.189
+    },
+    {
+     "w": "the",
+     "start": 13.329,
+     "end": 13.41
+    },
+    {
+     "w": "Hugging",
+     "start": 13.468,
+     "end": 13.723
+    },
+    {
+     "w": "Face",
+     "start": 13.793,
+     "end": 14.072
+    },
+    {
+     "w": "incident.",
+     "start": 14.118,
+     "end": 14.652
+    },
+    {
+     "w": "The",
+     "start": 14.861,
+     "end": 14.954
+    },
+    {
+     "w": "keynote",
+     "start": 14.989,
+     "end": 15.326
+    },
+    {
+     "w": "mentioned",
+     "start": 15.36,
+     "end": 15.651
+    },
+    {
+     "w": "none",
+     "start": 15.778,
+     "end": 15.964
+    },
+    {
+     "w": "of",
+     "start": 15.987,
+     "end": 16.034
+    },
+    {
+     "w": "it.",
+     "start": 16.092,
+     "end": 16.579
+    }
+   ],
+   "estimated": false
+  },
+  {
+   "id": "outro",
+   "start": 187.144,
+   "end": 196.234,
+   "file": "/build/voice/outro.mp3",
+   "words": [
+    {
+     "w": "So,",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "w": "the",
+     "start": 0.279,
+     "end": 0.348
+    },
+    {
+     "w": "real",
+     "start": 0.418,
+     "end": 0.592
+    },
+    {
+     "w": "question:",
+     "start": 0.639,
+     "end": 1.149
+    },
+    {
+     "w": "can",
+     "start": 1.289,
+     "end": 1.428
+    },
+    {
+     "w": "OpenAI",
+     "start": 1.498,
+     "end": 2.02
+    },
+    {
+     "w": "ship",
+     "start": 2.09,
+     "end": 2.276
+    },
+    {
+     "w": "persistent,",
+     "start": 2.368,
+     "end": 2.961
+    },
+    {
+     "w": "autonomous",
+     "start": 2.984,
+     "end": 3.46
+    },
+    {
+     "w": "agents,",
+     "start": 3.506,
+     "end": 3.982
+    },
+    {
+     "w": "right",
+     "start": 4.214,
+     "end": 4.423
+    },
+    {
+     "w": "as",
+     "start": 4.47,
+     "end": 4.563
+    },
+    {
+     "w": "safety",
+     "start": 4.609,
+     "end": 4.865
+    },
+    {
+     "w": "scrutiny",
+     "start": 4.899,
+     "end": 5.213
+    },
+    {
+     "w": "hits",
+     "start": 5.271,
+     "end": 5.399
+    },
+    {
+     "w": "its",
+     "start": 5.422,
+     "end": 5.503
+    },
+    {
+     "w": "peak?",
+     "start": 5.526,
+     "end": 5.875
+    },
+    {
+     "w": "The",
+     "start": 6.084,
+     "end": 6.177
+    },
+    {
+     "w": "dots",
+     "start": 6.223,
+     "end": 6.467
+    },
+    {
+     "w": "are",
+     "start": 6.502,
+     "end": 6.641
+    },
+    {
+     "w": "always",
+     "start": 6.676,
+     "end": 7.036
+    },
+    {
+     "w": "on.",
+     "start": 7.094,
+     "end": 7.465
+    },
+    {
+     "w": "So",
+     "start": 7.674,
+     "end": 7.964
+    },
+    {
+     "w": "is",
+     "start": 8.104,
+     "end": 8.231
+    },
+    {
+     "w": "the",
+     "start": 8.266,
+     "end": 8.336
+    },
+    {
+     "w": "spotlight.",
+     "start": 8.371,
+     "end": 9.056
+    }
+   ],
+   "estimated": false
+  }
+ ]
+}

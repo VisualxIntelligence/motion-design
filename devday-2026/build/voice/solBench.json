@@ -1,0 +1,182 @@
+{
+ "say": "It ties Astra on DeepSWE, beats Claude Opus 5.5 on AutomationBench at about a third of the cost, and cuts factual errors by thirty-two percent. It's live now in the API, ChatGPT Work, and Codex.",
+ "voiceId": "EXAVITQu4vr4xnSDxMaL",
+ "speed": 1.2,
+ "words": [
+  {
+   "w": "It",
+   "start": 0,
+   "end": 0.151
+  },
+  {
+   "w": "ties",
+   "start": 0.174,
+   "end": 0.418
+  },
+  {
+   "w": "Astra",
+   "start": 0.488,
+   "end": 0.859
+  },
+  {
+   "w": "on",
+   "start": 0.917,
+   "end": 1.033
+  },
+  {
+   "w": "DeepSWE,",
+   "start": 1.091,
+   "end": 1.974
+  },
+  {
+   "w": "beats",
+   "start": 2.148,
+   "end": 2.368
+  },
+  {
+   "w": "Claude",
+   "start": 2.415,
+   "end": 2.682
+  },
+  {
+   "w": "Opus",
+   "start": 2.717,
+   "end": 3.007
+  },
+  {
+   "w": "5.5",
+   "start": 3.077,
+   "end": 3.785
+  },
+  {
+   "w": "on",
+   "start": 3.855,
+   "end": 3.913
+  },
+  {
+   "w": "AutomationBench",
+   "start": 3.959,
+   "end": 4.656
+  },
+  {
+   "w": "at",
+   "start": 4.69,
+   "end": 4.737
+  },
+  {
+   "w": "about",
+   "start": 4.76,
+   "end": 4.899
+  },
+  {
+   "w": "a",
+   "start": 4.923,
+   "end": 4.946
+  },
+  {
+   "w": "third",
+   "start": 4.969,
+   "end": 5.108
+  },
+  {
+   "w": "of",
+   "start": 5.132,
+   "end": 5.178
+  },
+  {
+   "w": "the",
+   "start": 5.213,
+   "end": 5.283
+  },
+  {
+   "w": "cost,",
+   "start": 5.317,
+   "end": 5.77
+  },
+  {
+   "w": "and",
+   "start": 5.909,
+   "end": 6.026
+  },
+  {
+   "w": "cuts",
+   "start": 6.084,
+   "end": 6.293
+  },
+  {
+   "w": "factual",
+   "start": 6.374,
+   "end": 6.815
+  },
+  {
+   "w": "errors",
+   "start": 6.873,
+   "end": 7.152
+  },
+  {
+   "w": "by",
+   "start": 7.21,
+   "end": 7.314
+  },
+  {
+   "w": "thirty-two",
+   "start": 7.372,
+   "end": 7.686
+  },
+  {
+   "w": "percent.",
+   "start": 7.732,
+   "end": 8.29
+  },
+  {
+   "w": "It's",
+   "start": 8.615,
+   "end": 8.777
+  },
+  {
+   "w": "live",
+   "start": 8.835,
+   "end": 9.079
+  },
+  {
+   "w": "now",
+   "start": 9.114,
+   "end": 9.288
+  },
+  {
+   "w": "in",
+   "start": 9.381,
+   "end": 9.462
+  },
+  {
+   "w": "the",
+   "start": 9.497,
+   "end": 9.567
+  },
+  {
+   "w": "API,",
+   "start": 9.636,
+   "end": 10.217
+  },
+  {
+   "w": "ChatGPT",
+   "start": 10.321,
+   "end": 10.995
+  },
+  {
+   "w": "Work,",
+   "start": 11.099,
+   "end": 11.459
+  },
+  {
+   "w": "and",
+   "start": 11.517,
+   "end": 11.645
+  },
+  {
+   "w": "Codex.",
+   "start": 11.714,
+   "end": 12.539
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "positive_global_styles": [
+  "modern electronic",
+  "tech keynote",
+  "motion graphics explainer",
+  "122 BPM",
+  "polished",
+  "instrumental"
+ ],
+ "negative_global_styles": [
+  "vocals",
+  "singing",
+  "lo-fi",
+  "acoustic guitar"
+ ],
+ "sections": [
+  {
+   "section_name": "Cold open",
+   "positive_local_styles": [
+    "sparse pulsing synth bass",
+    "filtered plucks",
+    "rising filter sweep",
+    "anticipation building into a drop"
+   ],
+   "negative_local_styles": [
+    "full drums"
+   ],
+   "duration_ms": 9210,
+   "lines": []
+  },
+  {
+   "section_name": "Main groove",
+   "positive_local_styles": [
+    "playful bouncy upbeat electronic groove",
+    "plucky marimba-like synth hook",
+    "crisp claps",
+    "bright and optimistic",
+    "leaves room for voice-over"
+   ],
+   "negative_local_styles": [
+    "vocals",
+    "aggressive"
+   ],
+   "duration_ms": 40876,
+   "lines": []
+  },
+  {
+   "section_name": "Lift",
+   "positive_local_styles": [
+    "higher energy",
+    "driving four-on-the-floor kick",
+    "sparkling arpeggios",
+    "side-chained synth chords",
+    "confident and fast"
+   ],
+   "negative_local_styles": [
+    "vocals"
+   ],
+   "duration_ms": 45369,
+   "lines": []
+  },
+  {
+   "section_name": "Steady drive",
+   "positive_local_styles": [
+    "steady driving tech groove",
+    "minimal and focused",
+    "syncopated percussion",
+    "warm bass",
+    "confident"
+   ],
+   "negative_local_styles": [
+    "vocals",
+    "busy melody"
+   ],
+   "duration_ms": 74655,
+   "lines": []
+  },
+  {
+   "section_name": "Dark turn",
+   "positive_local_styles": [
+    "sudden shift to dark and tense",
+    "low ominous drone",
+    "minor key",
+    "sparse ticking clock percussion",
+    "uneasy"
+   ],
+   "negative_local_styles": [
+    "bright",
+    "happy",
+    "drums"
+   ],
+   "duration_ms": 17034,
+   "lines": []
+  },
+  {
+   "section_name": "Final question",
+   "positive_local_styles": [
+    "tension rising",
+    "pulsing low synth",
+    "builds to one big cinematic final hit",
+    "long ring-out"
+   ],
+   "negative_local_styles": [
+    "happy"
+   ],
+   "duration_ms": 13786,
+   "lines": []
+  }
+ ]
+}

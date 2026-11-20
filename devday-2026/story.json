@@ -1,0 +1,262 @@
+{
+  "title": "OpenAI DevDay 2026",
+  "voice": { "elevenlabs": "EXAVITQu4vr4xnSDxMaL", "kokoro": "af_heart" },
+  "gap": 0.12,
+  "lead": 0.6,
+  "tail": 4.2,
+  "scenes": [
+    {
+      "id": "hook", "sect": "DEVDAY 2026",
+      "say": "September twenty-ninth. San Francisco. OpenAI DevDay: more than twenty launches, for one point two billion weekly users. Here's everything, fast.",
+      "hl": ["twenty-ninth", "devday", "twenty", "billion", "fast"],
+      "cues": [
+        { "id": "date", "word": "twenty-ninth", "sfx": "hit", "off": -0.1 },
+        { "id": "sf", "word": "francisco", "sfx": "tick", "off": -0.15 },
+        { "id": "devday", "word": "devday", "sfx": "impact", "off": -0.12 },
+        { "id": "twenty", "word": "twenty", "n": 1, "sfx": "hit", "off": -0.08 },
+        { "id": "launches", "word": "launches", "sfx": "blip" },
+        { "id": "billion", "word": "billion", "sfx": "riser", "off": -0.55 },
+        { "id": "weekly", "word": "weekly", "sfx": "impact", "off": 0.05 },
+        { "id": "everything", "word": "everything", "sfx": "swish", "off": -0.1 },
+        { "id": "fast", "word": "fast", "sfx": "whoosh", "off": -0.05 }
+      ]
+    },
+    {
+      "id": "dots", "sect": "01 · DOTS",
+      "say": "First: Dots. Always-on personal agents. Each dot runs twenty-four seven, on its own cloud computer, with its own browser, and learns your priorities over time. Sam Altman's pitch? A helper that always has your back.",
+      "hl": ["dots", "always-on", "twenty-four", "computer", "browser", "priorities", "back"],
+      "cues": [
+        { "id": "first", "word": "first", "sfx": "swish", "off": -0.1 },
+        { "id": "dots", "word": "dots", "sfx": "pop", "off": -0.05 },
+        { "id": "alwayson", "word": "always-on", "sfx": "blip", "off": -0.05 },
+        { "id": "agents", "word": "agents", "sfx": "pop" },
+        { "id": "tf", "word": "twenty-four", "sfx": "tick", "off": -0.05 },
+        { "id": "computer", "word": "computer", "sfx": "whoosh", "off": -0.2 },
+        { "id": "browser", "word": "browser", "sfx": "click", "off": -0.05 },
+        { "id": "priorities", "word": "priorities", "sfx": "tick" },
+        { "id": "time", "word": "time", "sfx": "tick" },
+        { "id": "altman", "word": "altman's", "sfx": "swish", "off": -0.1 },
+        { "id": "helper", "word": "helper", "sfx": "chime", "off": -0.05 },
+        { "id": "back", "word": "back", "sfx": "sparkle", "off": -0.05 }
+      ]
+    },
+    {
+      "id": "reach", "sect": "01 · DOTS",
+      "say": "Dots plug into four thousand apps, and you can reach yours in ChatGPT, by voice call, in Slack or Teams, with texting coming. Under the hood: GPT-6 Astra. You set the rules: what it does alone, what needs approval, and what's off limits. Passwords stay yours. Early testers even watched dots negotiate vendor contracts.",
+      "hl": ["four", "thousand", "astra", "rules", "alone", "approval", "limits", "passwords", "negotiate"],
+      "cues": [
+        { "id": "plug", "word": "plug", "sfx": "click", "off": -0.05 },
+        { "id": "four", "word": "four", "sfx": "impact", "off": -0.1 },
+        { "id": "chatgpt", "word": "chatgpt", "sfx": "blip" },
+        { "id": "voice", "word": "voice", "sfx": "blip" },
+        { "id": "slack", "word": "slack", "sfx": "blip" },
+        { "id": "teams", "word": "teams", "sfx": "blip" },
+        { "id": "texting", "word": "texting", "sfx": "blip" },
+        { "id": "hood", "word": "hood", "sfx": "whoosh", "off": -0.2 },
+        { "id": "astra", "word": "astra", "sfx": "sparkle", "off": -0.05 },
+        { "id": "rules", "word": "rules", "sfx": "hit", "off": -0.05 },
+        { "id": "alone", "word": "alone", "sfx": "tick" },
+        { "id": "approval", "word": "approval", "sfx": "tick" },
+        { "id": "offlim", "word": "off", "sfx": "denied", "off": -0.05 },
+        { "id": "passwords", "word": "passwords", "sfx": "lock", "off": -0.05 },
+        { "id": "testers", "word": "testers", "sfx": "swish", "off": -0.1 },
+        { "id": "negotiate", "word": "negotiate", "sfx": "type", "off": -0.1 },
+        { "id": "contracts", "word": "contracts", "sfx": "stamp" }
+      ]
+    },
+    {
+      "id": "access", "sect": "01 · DOTS",
+      "say": "The catch? Your first dot comes with Pro and Business Premium. Free and Plus users? Left out, for now. And yes, they're cute: glasses, hats, bow ties. The Register side-eyed that, from a company that also warns about existential AI risk.",
+      "hl": ["catch", "pro", "premium", "free", "plus", "cute", "glasses", "hats", "bow", "existential"],
+      "cues": [
+        { "id": "catch", "word": "catch", "sfx": "hit", "off": -0.05 },
+        { "id": "pro", "word": "pro", "sfx": "chime", "off": -0.05 },
+        { "id": "premium", "word": "premium", "sfx": "chime", "off": -0.05 },
+        { "id": "free", "word": "free", "sfx": "denied", "off": -0.05 },
+        { "id": "plus", "word": "plus", "sfx": "denied", "off": -0.05 },
+        { "id": "leftout", "word": "left", "sfx": "tick" },
+        { "id": "cute", "word": "cute", "sfx": "boing", "off": -0.05 },
+        { "id": "glasses", "word": "glasses", "sfx": "pop", "off": -0.08 },
+        { "id": "hats", "word": "hats", "sfx": "pop", "off": -0.08 },
+        { "id": "bow", "word": "bow", "sfx": "pop", "off": -0.08 },
+        { "id": "register", "word": "register", "sfx": "swish", "off": -0.1 },
+        { "id": "existential", "word": "existential", "sfx": "drone", "off": -0.15 }
+      ]
+    },
+    {
+      "id": "sol", "sect": "02 · GPT-6.1 SOL",
+      "say": "Next, GPT-6.1 Sol. Near-Astra intelligence, at one-fifth the price. Two dollars per million input tokens. Ten dollars output. Cached input? Ten cents. That's ninety-five percent off.",
+      "hl": ["sol", "near-astra", "one-fifth", "two", "ten", "cents", "ninety-five"],
+      "cues": [
+        { "id": "next", "word": "next", "sfx": "whoosh", "off": -0.15 },
+        { "id": "sol", "word": "sol", "sfx": "impact", "off": -0.1 },
+        { "id": "near", "word": "near-astra", "sfx": "swish", "off": -0.05 },
+        { "id": "fifth", "word": "one-fifth", "sfx": "coin", "off": -0.05 },
+        { "id": "two", "word": "two", "sfx": "hit", "off": -0.05 },
+        { "id": "tenout", "word": "ten", "n": 1, "sfx": "hit", "off": -0.05 },
+        { "id": "cached", "word": "cached", "sfx": "tick" },
+        { "id": "cents", "word": "cents", "sfx": "coin", "off": -0.05 },
+        { "id": "ninetyfive", "word": "ninety-five", "sfx": "stamp", "off": -0.05 }
+      ]
+    },
+    {
+      "id": "solBench", "sect": "02 · GPT-6.1 SOL",
+      "say": "It ties Astra on DeepSWE, beats Claude Opus 5.5 on AutomationBench at about a third of the cost, and cuts factual errors by thirty-two percent. It's live now in the API, ChatGPT Work, and Codex.",
+      "hl": ["ties", "beats", "third", "thirty-two", "live"],
+      "cues": [
+        { "id": "ties", "word": "ties", "sfx": "hit", "off": -0.05 },
+        { "id": "beats", "word": "beats", "sfx": "hit", "off": -0.05 },
+        { "id": "third", "word": "third", "sfx": "tick" },
+        { "id": "errors", "word": "errors", "sfx": "swish", "off": -0.1 },
+        { "id": "thirtytwo", "word": "thirty-two", "sfx": "impact", "off": -0.1 },
+        { "id": "live", "word": "live", "sfx": "chime", "off": -0.05 },
+        { "id": "api", "word": "api", "sfx": "blip" },
+        { "id": "work", "word": "work", "sfx": "blip" },
+        { "id": "codex", "word": "codex", "sfx": "blip" }
+      ]
+    },
+    {
+      "id": "ultra", "sect": "03 · ULTRAFAST + PRO 500",
+      "say": "Need speed? Ultrafast. Up to eight times faster in Codex. Three hundred tokens a second, reportedly on Cerebras chips. It isn't cheap: Astra Ultrafast costs sixty dollars in, and three hundred out, per million tokens. And it's bundled into a new top plan: Pro 500. Five hundred dollars a month, with twenty-five times the Plus allowance.",
+      "hl": ["speed", "ultrafast", "eight", "three", "hundred", "cerebras", "cheap", "sixty", "500", "twenty-five"],
+      "cues": [
+        { "id": "speed", "word": "speed", "sfx": "riser", "off": -0.4 },
+        { "id": "ultrafast", "word": "ultrafast", "n": 1, "sfx": "warp", "off": -0.12 },
+        { "id": "eight", "word": "eight", "sfx": "hit", "off": -0.05 },
+        { "id": "threeh", "word": "three", "n": 1, "sfx": "tick", "off": -0.05 },
+        { "id": "tokens", "word": "tokens", "n": 1, "sfx": "hit", "off": -0.05 },
+        { "id": "cerebras", "word": "cerebras", "sfx": "whoosh", "off": -0.2 },
+        { "id": "cheap", "word": "cheap", "sfx": "brake", "off": -0.3 },
+        { "id": "sixty", "word": "sixty", "sfx": "coin", "off": -0.05 },
+        { "id": "threeout", "word": "three", "n": 2, "sfx": "coin", "off": -0.05 },
+        { "id": "bundled", "word": "bundled", "sfx": "swish", "off": -0.1 },
+        { "id": "pro500", "word": "500", "sfx": "impact", "off": -0.2 },
+        { "id": "fiveh", "word": "five", "sfx": "coin", "off": -0.05 },
+        { "id": "twentyfive", "word": "twenty-five", "sfx": "hit", "off": -0.05 }
+      ]
+    },
+    {
+      "id": "agents", "sect": "04 · DEVELOPER PLATFORM",
+      "say": "For developers, the Agents API adds computer use: clicking, typing and navigating software, plus multi-agent support, with OpenAI hosting the infrastructure. Agents can also run entirely inside AWS, through Bedrock. And the new Decisions API routes quick, finite choices, like approve or reject, to the tiny GPT-6 Luna, at ten cents per million input tokens.",
+      "hl": ["agents", "computer", "multi-agent", "hosting", "aws", "bedrock", "decisions", "approve", "reject", "luna", "ten"],
+      "cues": [
+        { "id": "devs", "word": "developers", "sfx": "whoosh", "off": -0.2 },
+        { "id": "agentsapi", "word": "agents", "n": 1, "sfx": "hit", "off": -0.05 },
+        { "id": "computeruse", "word": "computer", "sfx": "blip" },
+        { "id": "clicking", "word": "clicking", "sfx": "click", "off": -0.02 },
+        { "id": "typing", "word": "typing", "sfx": "type", "off": -0.05 },
+        { "id": "navigating", "word": "navigating", "sfx": "swish" },
+        { "id": "multi", "word": "multi-agent", "sfx": "pop", "off": -0.05 },
+        { "id": "hosting", "word": "hosting", "sfx": "blip" },
+        { "id": "aws", "word": "aws", "sfx": "lock", "off": -0.1 },
+        { "id": "bedrock", "word": "bedrock", "sfx": "hit" },
+        { "id": "decisions", "word": "decisions", "sfx": "whoosh", "off": -0.2 },
+        { "id": "approve", "word": "approve", "sfx": "chime", "off": -0.05 },
+        { "id": "reject", "word": "reject", "sfx": "denied", "off": -0.05 },
+        { "id": "luna", "word": "luna", "sfx": "sparkle", "off": -0.1 },
+        { "id": "tencents", "word": "ten", "sfx": "coin", "off": -0.05 }
+      ]
+    },
+    {
+      "id": "codex", "sect": "04 · DEVELOPER PLATFORM",
+      "say": "Codex gets persistent cloud runtimes you can drive from your phone, voice steering, code review for pull requests, and an on-demand security scanner. And its harness is now open source. Sign in with ChatGPT lets people spend their own plan inside sixteen partner apps, like Notion, Vercel and Devin, so developers aren't footing the token bill. And plugins get sidebars, panels and MCP events.",
+      "hl": ["codex", "phone", "voice", "review", "security", "open", "sign", "sixteen", "token", "plugins"],
+      "cues": [
+        { "id": "codexT", "word": "codex", "sfx": "type", "off": -0.1 },
+        { "id": "runtimes", "word": "runtimes", "sfx": "blip" },
+        { "id": "phone", "word": "phone", "sfx": "swish", "off": -0.1 },
+        { "id": "voiceS", "word": "voice", "sfx": "blip" },
+        { "id": "review", "word": "review", "sfx": "tick" },
+        { "id": "security", "word": "security", "sfx": "scan", "off": -0.1 },
+        { "id": "harness", "word": "harness", "sfx": "swish", "off": -0.1 },
+        { "id": "opensrc", "word": "open", "sfx": "chime", "off": -0.05 },
+        { "id": "signin", "word": "sign", "sfx": "click", "off": -0.05 },
+        { "id": "spend", "word": "spend", "sfx": "tick" },
+        { "id": "sixteen", "word": "sixteen", "sfx": "impact", "off": -0.1 },
+        { "id": "notion", "word": "notion", "sfx": "pop" },
+        { "id": "vercel", "word": "vercel", "sfx": "pop" },
+        { "id": "devin", "word": "devin", "sfx": "pop" },
+        { "id": "token", "word": "token", "sfx": "coin", "off": -0.05 },
+        { "id": "plugins", "word": "plugins", "sfx": "whoosh", "off": -0.15 },
+        { "id": "sidebars", "word": "sidebars", "sfx": "swish" },
+        { "id": "panels", "word": "panels", "sfx": "swish" },
+        { "id": "mcp", "word": "mcp", "sfx": "blip" }
+      ]
+    },
+    {
+      "id": "collab", "sect": "05 · COLLABORATION",
+      "say": "Then, teamwork. ChatGPT Space: a shared hub where teammates, ChatGPT and dots work together. Pages, for documents co-written by humans and agents. Collaborative Slides, arriving in the coming weeks. And at-mention ChatGPT, right in Slack and Teams.",
+      "hl": ["teamwork", "space", "together", "pages", "slides", "at-mention"],
+      "cues": [
+        { "id": "teamwork", "word": "teamwork", "sfx": "whoosh", "off": -0.15 },
+        { "id": "space", "word": "space", "sfx": "impact", "off": -0.1 },
+        { "id": "teammates", "word": "teammates", "sfx": "pop" },
+        { "id": "chatgptC", "word": "chatgpt", "n": 2, "sfx": "pop" },
+        { "id": "dotsC", "word": "dots", "sfx": "pop" },
+        { "id": "together", "word": "together", "sfx": "chime", "off": -0.05 },
+        { "id": "pages", "word": "pages", "sfx": "swish", "off": -0.1 },
+        { "id": "humans", "word": "humans", "sfx": "type" },
+        { "id": "slidesC", "word": "slides", "sfx": "swish", "off": -0.1 },
+        { "id": "weeksC", "word": "weeks", "sfx": "tick" },
+        { "id": "mention", "word": "at-mention", "sfx": "blip", "off": -0.05 },
+        { "id": "slackC", "word": "slack", "sfx": "pop" }
+      ]
+    },
+    {
+      "id": "enterprise", "sect": "06 · ENTERPRISE",
+      "say": "For enterprise: Private Intelligence. Zero data retention, automated safety review with no OpenAI staff access, and private inference on confidential computing, this fall. Plus, the OpenAI Marketplace: spend existing commitments across thirty-two partners, from Adobe and Figma to Salesforce and CrowdStrike.",
+      "hl": ["private", "zero", "staff", "confidential", "marketplace", "thirty-two"],
+      "cues": [
+        { "id": "enter", "word": "enterprise", "sfx": "whoosh", "off": -0.2 },
+        { "id": "private", "word": "private", "n": 1, "sfx": "lock", "off": -0.08 },
+        { "id": "zero", "word": "zero", "sfx": "hit", "off": -0.05 },
+        { "id": "safety", "word": "safety", "sfx": "scan", "off": -0.05 },
+        { "id": "staff", "word": "staff", "sfx": "denied", "off": -0.05 },
+        { "id": "inference", "word": "inference", "sfx": "blip" },
+        { "id": "confidential", "word": "confidential", "sfx": "lock", "off": -0.05 },
+        { "id": "fall", "word": "fall", "sfx": "tick" },
+        { "id": "market", "word": "marketplace", "sfx": "impact", "off": -0.15 },
+        { "id": "commit", "word": "commitments", "sfx": "coin" },
+        { "id": "thirtytwoP", "word": "thirty-two", "sfx": "hit", "off": -0.05 },
+        { "id": "adobe", "word": "adobe", "sfx": "pop" },
+        { "id": "figma", "word": "figma", "sfx": "pop" },
+        { "id": "salesforce", "word": "salesforce", "sfx": "pop" },
+        { "id": "crowdstrike", "word": "crowdstrike", "sfx": "pop" }
+      ]
+    },
+    {
+      "id": "backdrop", "sect": "07 · THE BACKDROP",
+      "say": "But look at the backdrop. One day earlier, OpenAI reportedly scrapped GPT-6.1 Astra over safety concerns. Weeks before, it paused training of its most capable models after agent incidents: agents breaching government sites, the Hugging Face incident. The keynote mentioned none of it.",
+      "hl": ["backdrop", "scrapped", "astra", "paused", "government", "hugging", "none"],
+      "cues": [
+        { "id": "but", "word": "but", "sfx": "drone", "off": -0.2 },
+        { "id": "backdropW", "word": "backdrop", "sfx": "hit", "off": -0.1 },
+        { "id": "oneday", "word": "day", "sfx": "tick" },
+        { "id": "scrapped", "word": "scrapped", "sfx": "shatter", "off": -0.1 },
+        { "id": "concerns", "word": "concerns", "sfx": "tick" },
+        { "id": "weeks", "word": "weeks", "sfx": "tick" },
+        { "id": "paused", "word": "paused", "sfx": "freeze", "off": -0.08 },
+        { "id": "incidents", "word": "incidents", "n": 1, "sfx": "glitch" },
+        { "id": "gov", "word": "government", "sfx": "glitch", "off": -0.05 },
+        { "id": "hugging", "word": "hugging", "sfx": "glitch", "off": -0.05 },
+        { "id": "keynote", "word": "keynote", "sfx": "swish", "off": -0.1 },
+        { "id": "none", "word": "none", "sfx": "stamp", "off": -0.05 }
+      ]
+    },
+    {
+      "id": "outro", "sect": "08 · THE QUESTION",
+      "say": "So, the real question: can OpenAI ship persistent, autonomous agents, right as safety scrutiny hits its peak? The dots are always on. So is the spotlight.",
+      "hl": ["question", "persistent", "autonomous", "scrutiny", "peak", "always", "spotlight"],
+      "cues": [
+        { "id": "question", "word": "question", "sfx": "hit", "off": -0.1 },
+        { "id": "ship", "word": "ship", "sfx": "tick" },
+        { "id": "autonomous", "word": "autonomous", "sfx": "blip" },
+        { "id": "scrutiny", "word": "scrutiny", "sfx": "riser", "off": -0.35 },
+        { "id": "peak", "word": "peak", "sfx": "impact", "off": -0.05 },
+        { "id": "alwaysO", "word": "always", "sfx": "pop", "off": -0.05 },
+        { "id": "on", "word": "on", "sfx": "blip", "off": -0.03 },
+        { "id": "spotlight", "word": "spotlight", "sfx": "spot", "off": -0.18 }
+      ]
+    }
+  ]
+}
